@@ -1,0 +1,96 @@
+14-Jun-2021 13:27:26 CEST  Initiating request to open file file:/eos/cms/store/user/tsarkar/SIM_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau1p0/step_SIM_2017UL_18.root
+14-Jun-2021 13:27:28 CEST  Successfully opened file file:/eos/cms/store/user/tsarkar/SIM_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau1p0/step_SIM_2017UL_18.root
+14-Jun-2021 13:27:32 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/mc/RunIISummer20ULPrePremix/Neutrino_E-10_gun/PREMIX/UL17_106X_mc2017_realistic_v6-v3/210004/089DFB55-9F98-1140-A3E0-E8BCCCBCBEA1.root
+%MSG-w XrdAdaptor:  PreMixingModule:mixData@ctor 14-Jun-2021 13:27:34 CEST  pre-events
+Data is served from cern.ch instead of original site eoscms
+%MSG
+14-Jun-2021 13:27:34 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/mc/RunIISummer20ULPrePremix/Neutrino_E-10_gun/PREMIX/UL17_106X_mc2017_realistic_v6-v3/210004/089DFB55-9F98-1140-A3E0-E8BCCCBCBEA1.root
+Begin processing the 1st record. Run 1, Event 854, LumiSection 18 on stream 0 at 14-Jun-2021 13:27:51.085 CEST
+14-Jun-2021 13:30:05 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/mc/RunIISummer20ULPrePremix/Neutrino_E-10_gun/PREMIX/UL17_106X_mc2017_realistic_v6-v3/210004/089DFB55-9F98-1140-A3E0-E8BCCCBCBEA1.root
+14-Jun-2021 13:30:05 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/mc/RunIISummer20ULPrePremix/Neutrino_E-10_gun/PREMIX/UL17_106X_mc2017_realistic_v6-v3/20000/8702F3CD-3982-B345-BE12-52BF436664C5.root
+%MSG-w XrdAdaptor:  PreMixingModule:mixData 14-Jun-2021 13:30:07 CEST  Run: 1 Event: 854
+Data is served from cern.ch instead of original site eoscms
+%MSG
+14-Jun-2021 13:30:07 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/mc/RunIISummer20ULPrePremix/Neutrino_E-10_gun/PREMIX/UL17_106X_mc2017_realistic_v6-v3/20000/8702F3CD-3982-B345-BE12-52BF436664C5.root
+Begin processing the 2nd record. Run 1, Event 853, LumiSection 18 on stream 0 at 14-Jun-2021 13:30:28.022 CEST
+Begin processing the 3rd record. Run 1, Event 851, LumiSection 18 on stream 0 at 14-Jun-2021 13:30:32.141 CEST
+Begin processing the 4th record. Run 1, Event 852, LumiSection 18 on stream 0 at 14-Jun-2021 13:30:35.598 CEST
+Begin processing the 5th record. Run 1, Event 857, LumiSection 18 on stream 0 at 14-Jun-2021 13:30:40.348 CEST
+Begin processing the 6th record. Run 1, Event 859, LumiSection 18 on stream 0 at 14-Jun-2021 13:30:43.959 CEST
+Begin processing the 7th record. Run 1, Event 855, LumiSection 18 on stream 0 at 14-Jun-2021 13:30:47.493 CEST
+Begin processing the 8th record. Run 1, Event 856, LumiSection 18 on stream 0 at 14-Jun-2021 13:30:51.385 CEST
+Begin processing the 9th record. Run 1, Event 858, LumiSection 18 on stream 0 at 14-Jun-2021 13:30:55.337 CEST
+Begin processing the 10th record. Run 1, Event 860, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:00.240 CEST
+Begin processing the 11th record. Run 1, Event 863, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:03.911 CEST
+Begin processing the 12th record. Run 1, Event 861, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:06.968 CEST
+Begin processing the 13th record. Run 1, Event 866, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:10.377 CEST
+Begin processing the 14th record. Run 1, Event 862, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:13.155 CEST
+Begin processing the 15th record. Run 1, Event 867, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:15.972 CEST
+Begin processing the 16th record. Run 1, Event 864, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:18.741 CEST
+Begin processing the 17th record. Run 1, Event 865, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:22.812 CEST
+Begin processing the 18th record. Run 1, Event 869, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:26.226 CEST
+Begin processing the 19th record. Run 1, Event 871, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:30.333 CEST
+Begin processing the 20th record. Run 1, Event 870, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:33.232 CEST
+Begin processing the 21st record. Run 1, Event 872, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:37.545 CEST
+Begin processing the 22nd record. Run 1, Event 875, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:42.075 CEST
+Begin processing the 23rd record. Run 1, Event 868, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:45.074 CEST
+Begin processing the 24th record. Run 1, Event 873, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:49.211 CEST
+Begin processing the 25th record. Run 1, Event 876, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:52.166 CEST
+Begin processing the 26th record. Run 1, Event 877, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:54.799 CEST
+Begin processing the 27th record. Run 1, Event 874, LumiSection 18 on stream 0 at 14-Jun-2021 13:31:58.056 CEST
+Begin processing the 28th record. Run 1, Event 878, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:01.421 CEST
+Begin processing the 29th record. Run 1, Event 880, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:05.415 CEST
+Begin processing the 30th record. Run 1, Event 882, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:09.138 CEST
+Begin processing the 31st record. Run 1, Event 879, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:11.966 CEST
+Begin processing the 32nd record. Run 1, Event 881, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:15.665 CEST
+Begin processing the 33rd record. Run 1, Event 884, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:20.256 CEST
+Begin processing the 34th record. Run 1, Event 885, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:23.594 CEST
+Begin processing the 35th record. Run 1, Event 883, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:27.416 CEST
+Begin processing the 36th record. Run 1, Event 888, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:31.672 CEST
+Begin processing the 37th record. Run 1, Event 886, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:35.119 CEST
+Begin processing the 38th record. Run 1, Event 887, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:39.427 CEST
+Begin processing the 39th record. Run 1, Event 890, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:43.063 CEST
+Begin processing the 40th record. Run 1, Event 891, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:47.516 CEST
+Begin processing the 41st record. Run 1, Event 889, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:50.665 CEST
+Begin processing the 42nd record. Run 1, Event 892, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:54.342 CEST
+Begin processing the 43rd record. Run 1, Event 893, LumiSection 18 on stream 0 at 14-Jun-2021 13:32:57.859 CEST
+Begin processing the 44th record. Run 1, Event 894, LumiSection 18 on stream 0 at 14-Jun-2021 13:33:01.170 CEST
+Begin processing the 45th record. Run 1, Event 895, LumiSection 18 on stream 0 at 14-Jun-2021 13:33:05.332 CEST
+Begin processing the 46th record. Run 1, Event 896, LumiSection 18 on stream 0 at 14-Jun-2021 13:33:08.821 CEST
+Begin processing the 47th record. Run 1, Event 898, LumiSection 18 on stream 0 at 14-Jun-2021 13:33:13.297 CEST
+Begin processing the 48th record. Run 1, Event 899, LumiSection 18 on stream 0 at 14-Jun-2021 13:33:17.362 CEST
+Begin processing the 49th record. Run 1, Event 897, LumiSection 18 on stream 0 at 14-Jun-2021 13:33:20.707 CEST
+Begin processing the 50th record. Run 1, Event 900, LumiSection 18 on stream 0 at 14-Jun-2021 13:33:24.374 CEST
+14-Jun-2021 13:33:28 CEST  Closed file file:/eos/cms/store/user/tsarkar/SIM_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau1p0/step_SIM_2017UL_18.root
+14-Jun-2021 13:33:29 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/mc/RunIISummer20ULPrePremix/Neutrino_E-10_gun/PREMIX/UL17_106X_mc2017_realistic_v6-v3/20000/8702F3CD-3982-B345-BE12-52BF436664C5.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w PreMixingModule:                       1        1
+    2 XrdAdaptor           -w PreMixingModule:                       1        1
+    3 fileAction           -s PreMixingModule:                       3        3
+    4 fileAction           -s PreMixingModule:                       2        2
+    5 fileAction           -s PreMixingModule:                       1        1
+    6 fileAction           -s file_close                             1        1
+    7 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           1/854                             
+    2 XrdAdaptor           pre-events                        
+    3 fileAction           1/854            1/854            1/854
+    4 fileAction           pre-events       pre-events       
+    5 fileAction           PostGlobalEndRun                  
+    6 fileAction           PostGlobalEndRun                  
+    7 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 2                   2
+System                  9                   9
+
+dropped waiting message count 0

@@ -1,0 +1,77 @@
+%MSG-i ThreadStreamSetup:  (NoModuleName) 13-Jun-2021 19:18:06 CEST pre-events
+setting # threads 4
+setting # streams 4
+%MSG
+13-Jun-2021 19:18:17 CEST  Initiating request to open file file:/eos/cms/store/user/tsarkar/wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau100p0/RunIISummer20UL17_wmLHEGEN/210607_154034/0000/step_wgen_13.root
+13-Jun-2021 19:18:19 CEST  Successfully opened file file:/eos/cms/store/user/tsarkar/wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau100p0/RunIISummer20UL17_wmLHEGEN/210607_154034/0000/step_wgen_13.root
+Begin processing the 1st record. Run 1, Event 601, LumiSection 13 on stream 0 at 13-Jun-2021 19:19:13.516 CEST
+Begin processing the 2nd record. Run 1, Event 602, LumiSection 13 on stream 1 at 13-Jun-2021 19:19:13.517 CEST
+Begin processing the 3rd record. Run 1, Event 603, LumiSection 13 on stream 3 at 13-Jun-2021 19:19:13.517 CEST
+Begin processing the 4th record. Run 1, Event 604, LumiSection 13 on stream 2 at 13-Jun-2021 19:19:13.517 CEST
+Begin processing the 5th record. Run 1, Event 605, LumiSection 13 on stream 2 at 13-Jun-2021 19:19:37.566 CEST
+Begin processing the 6th record. Run 1, Event 606, LumiSection 13 on stream 1 at 13-Jun-2021 19:19:59.441 CEST
+Begin processing the 7th record. Run 1, Event 607, LumiSection 13 on stream 0 at 13-Jun-2021 19:20:22.403 CEST
+Begin processing the 8th record. Run 1, Event 608, LumiSection 13 on stream 3 at 13-Jun-2021 19:20:29.017 CEST
+Begin processing the 9th record. Run 1, Event 609, LumiSection 13 on stream 1 at 13-Jun-2021 19:20:34.898 CEST
+Begin processing the 10th record. Run 1, Event 610, LumiSection 13 on stream 2 at 13-Jun-2021 19:20:36.062 CEST
+Begin processing the 11th record. Run 1, Event 611, LumiSection 13 on stream 0 at 13-Jun-2021 19:20:47.292 CEST
+Begin processing the 12th record. Run 1, Event 612, LumiSection 13 on stream 3 at 13-Jun-2021 19:20:56.414 CEST
+Begin processing the 13th record. Run 1, Event 613, LumiSection 13 on stream 1 at 13-Jun-2021 19:21:20.729 CEST
+Begin processing the 14th record. Run 1, Event 614, LumiSection 13 on stream 2 at 13-Jun-2021 19:21:25.099 CEST
+Begin processing the 15th record. Run 1, Event 615, LumiSection 13 on stream 3 at 13-Jun-2021 19:21:39.898 CEST
+Begin processing the 16th record. Run 1, Event 616, LumiSection 13 on stream 0 at 13-Jun-2021 19:21:45.666 CEST
+Begin processing the 17th record. Run 1, Event 617, LumiSection 13 on stream 2 at 13-Jun-2021 19:22:06.151 CEST
+Begin processing the 18th record. Run 1, Event 618, LumiSection 13 on stream 1 at 13-Jun-2021 19:22:10.994 CEST
+Begin processing the 19th record. Run 1, Event 619, LumiSection 13 on stream 3 at 13-Jun-2021 19:22:31.534 CEST
+Begin processing the 20th record. Run 1, Event 620, LumiSection 13 on stream 0 at 13-Jun-2021 19:22:40.809 CEST
+Begin processing the 21st record. Run 1, Event 621, LumiSection 13 on stream 2 at 13-Jun-2021 19:22:55.038 CEST
+Begin processing the 22nd record. Run 1, Event 622, LumiSection 13 on stream 1 at 13-Jun-2021 19:23:06.772 CEST
+Begin processing the 23rd record. Run 1, Event 623, LumiSection 13 on stream 0 at 13-Jun-2021 19:23:35.239 CEST
+Begin processing the 24th record. Run 1, Event 624, LumiSection 13 on stream 3 at 13-Jun-2021 19:23:47.583 CEST
+Begin processing the 25th record. Run 1, Event 625, LumiSection 13 on stream 1 at 13-Jun-2021 19:23:48.249 CEST
+Begin processing the 26th record. Run 1, Event 626, LumiSection 13 on stream 2 at 13-Jun-2021 19:23:49.589 CEST
+Begin processing the 27th record. Run 1, Event 627, LumiSection 13 on stream 0 at 13-Jun-2021 19:23:51.266 CEST
+Begin processing the 28th record. Run 1, Event 628, LumiSection 13 on stream 3 at 13-Jun-2021 19:24:30.402 CEST
+Begin processing the 29th record. Run 1, Event 629, LumiSection 13 on stream 1 at 13-Jun-2021 19:24:35.527 CEST
+Begin processing the 30th record. Run 1, Event 630, LumiSection 13 on stream 2 at 13-Jun-2021 19:24:40.240 CEST
+Begin processing the 31st record. Run 1, Event 631, LumiSection 13 on stream 0 at 13-Jun-2021 19:24:46.196 CEST
+Begin processing the 32nd record. Run 1, Event 632, LumiSection 13 on stream 2 at 13-Jun-2021 19:24:59.537 CEST
+Begin processing the 33rd record. Run 1, Event 633, LumiSection 13 on stream 1 at 13-Jun-2021 19:25:04.717 CEST
+Begin processing the 34th record. Run 1, Event 634, LumiSection 13 on stream 3 at 13-Jun-2021 19:25:10.868 CEST
+Begin processing the 35th record. Run 1, Event 635, LumiSection 13 on stream 1 at 13-Jun-2021 19:25:25.659 CEST
+Begin processing the 36th record. Run 1, Event 636, LumiSection 13 on stream 0 at 13-Jun-2021 19:25:33.559 CEST
+Begin processing the 37th record. Run 1, Event 637, LumiSection 13 on stream 2 at 13-Jun-2021 19:25:40.269 CEST
+Begin processing the 38th record. Run 1, Event 638, LumiSection 13 on stream 3 at 13-Jun-2021 19:26:07.782 CEST
+Begin processing the 39th record. Run 1, Event 639, LumiSection 13 on stream 0 at 13-Jun-2021 19:26:18.478 CEST
+Begin processing the 40th record. Run 1, Event 640, LumiSection 13 on stream 2 at 13-Jun-2021 19:26:30.533 CEST
+Begin processing the 41st record. Run 1, Event 641, LumiSection 13 on stream 1 at 13-Jun-2021 19:26:30.639 CEST
+Begin processing the 42nd record. Run 1, Event 642, LumiSection 13 on stream 3 at 13-Jun-2021 19:26:32.950 CEST
+Begin processing the 43rd record. Run 1, Event 643, LumiSection 13 on stream 2 at 13-Jun-2021 19:26:44.056 CEST
+Begin processing the 44th record. Run 1, Event 644, LumiSection 13 on stream 1 at 13-Jun-2021 19:27:06.709 CEST
+Begin processing the 45th record. Run 1, Event 645, LumiSection 13 on stream 0 at 13-Jun-2021 19:27:23.056 CEST
+Begin processing the 46th record. Run 1, Event 646, LumiSection 13 on stream 2 at 13-Jun-2021 19:27:36.718 CEST
+Begin processing the 47th record. Run 1, Event 647, LumiSection 13 on stream 3 at 13-Jun-2021 19:27:50.390 CEST
+Begin processing the 48th record. Run 1, Event 648, LumiSection 13 on stream 0 at 13-Jun-2021 19:27:55.955 CEST
+Begin processing the 49th record. Run 1, Event 649, LumiSection 13 on stream 1 at 13-Jun-2021 19:28:17.720 CEST
+Begin processing the 50th record. Run 1, Event 650, LumiSection 13 on stream 2 at 13-Jun-2021 19:28:24.366 CEST
+13-Jun-2021 19:29:04 CEST  Closed file file:/eos/cms/store/user/tsarkar/wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau100p0/RunIISummer20UL17_wmLHEGEN/210607_154034/0000/step_wgen_13.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           End Run: 1                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3
+
+dropped waiting message count 605

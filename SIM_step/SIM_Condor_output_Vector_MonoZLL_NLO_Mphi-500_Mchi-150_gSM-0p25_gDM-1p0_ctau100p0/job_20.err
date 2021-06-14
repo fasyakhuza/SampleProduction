@@ -1,0 +1,12 @@
+%MSG-i ThreadStreamSetup:  (NoModuleName) 13-Jun-2021 19:18:10 CEST pre-events
+setting # threads 4
+setting # streams 4
+%MSG
+----- Begin Fatal Exception 13-Jun-2021 19:18:19 CEST-----------------------
+An exception of category 'Configuration' occurred while
+   [0] Constructing the EventProcessor
+   [1] Constructing input source of type PoolSource
+Exception Message:
+InputFileCatalog::InputFileCatalog()
+An empty physical file name specified in the fileNames parameter for input source.
+----- End Fatal Exception -------------------------------------------------
