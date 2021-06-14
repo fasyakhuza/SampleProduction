@@ -1,0 +1,42 @@
+000 (7312052.000.000) 06/14 14:45:03 Job submitted from host: <137.138.44.75:9618?addrs=137.138.44.75-9618+[2001-1458-d00-1a--b]-9618&alias=bigbird14.cern.ch&noUDP&sock=schedd_3149486_02ef>
+...
+040 (7312052.000.000) 06/14 15:39:46 Started transferring input files
+	Transferring to host: <188.184.138.19:9618?addrs=188.184.138.19-9618+[2001-1458-301-45--100-20]-9618&alias=b7g42n0091.cern.ch&noUDP&sock=slot1_3_4277_4887_49356>
+...
+040 (7312052.000.000) 06/14 15:39:46 Finished transferring input files
+...
+001 (7312052.000.000) 06/14 15:39:47 Job executing on host: <188.184.138.19:9618?addrs=188.184.138.19-9618+[2001-1458-301-45--100-20]-9618&alias=b7g42n0091.cern.ch&noUDP&sock=startd_3575_bb2a>
+...
+006 (7312052.000.000) 06/14 15:39:56 Image size of job updated: 27948
+	15  -  MemoryUsage of job (MB)
+	14816  -  ResidentSetSize of job (KB)
+...
+006 (7312052.000.000) 06/14 15:44:57 Image size of job updated: 2324408
+	1210  -  MemoryUsage of job (MB)
+	1238600  -  ResidentSetSize of job (KB)
+...
+006 (7312052.000.000) 06/14 15:47:03 Image size of job updated: 2406336
+	1210  -  MemoryUsage of job (MB)
+	1238600  -  ResidentSetSize of job (KB)
+...
+040 (7312052.000.000) 06/14 15:47:03 Started transferring output files
+...
+040 (7312052.000.000) 06/14 15:47:03 Finished transferring output files
+...
+005 (7312052.000.000) 06/14 15:47:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:02, Sys 0 00:00:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:02, Sys 0 00:00:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19048  -  Run Bytes Sent By Job
+	431  -  Run Bytes Received By Job
+	19048  -  Total Bytes Sent By Job
+	431  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.18        1         1 
+	   Disk (KB)            :    40           1    313589 
+	   Memory (MB)          :  1210        2000      2000 
+
+	Job terminated of its own accord at 2021-06-14T13:47:03Z.
+...

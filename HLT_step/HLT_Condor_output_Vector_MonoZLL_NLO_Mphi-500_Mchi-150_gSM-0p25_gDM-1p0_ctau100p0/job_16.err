@@ -1,0 +1,138 @@
+14-Jun-2021 15:40:45 CEST  Initiating request to open file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau100p0/step_DIGIPremix_2017UL_6.root
+14-Jun-2021 15:40:49 CEST  Successfully opened file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau100p0/step_DIGIPremix_2017UL_6.root
+Begin processing the 1st record. Run 1, Event 654, LumiSection 14 at 14-Jun-2021 15:42:23.145 CEST
+Begin processing the 2nd record. Run 1, Event 653, LumiSection 14 at 14-Jun-2021 15:42:30.618 CEST
+Begin processing the 3rd record. Run 1, Event 651, LumiSection 14 at 14-Jun-2021 15:42:37.910 CEST
+Begin processing the 4th record. Run 1, Event 652, LumiSection 14 at 14-Jun-2021 15:42:54.932 CEST
+%MSG-w InvalidInputTag:  CSCHaloDataProducer:hltCSCHaloData  14-Jun-2021 15:43:01 CEST Run: 1 Event: 652
+ The Cosmic Muon collection does not appear to be in the event. These beam halo  identification variables will be empty
+%MSG
+Begin processing the 5th record. Run 1, Event 655, LumiSection 14 at 14-Jun-2021 15:43:01.570 CEST
+Begin processing the 6th record. Run 1, Event 656, LumiSection 14 at 14-Jun-2021 15:43:08.580 CEST
+Begin processing the 7th record. Run 1, Event 660, LumiSection 14 at 14-Jun-2021 15:43:21.547 CEST
+Begin processing the 8th record. Run 1, Event 658, LumiSection 14 at 14-Jun-2021 15:43:32.950 CEST
+Begin processing the 9th record. Run 1, Event 657, LumiSection 14 at 14-Jun-2021 15:43:40.359 CEST
+Begin processing the 10th record. Run 1, Event 661, LumiSection 14 at 14-Jun-2021 15:43:50.714 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsTripletOnlyEDProducer:hltFullIter8PixelLessSeeds  14-Jun-2021 15:43:56 CEST Run: 1 Event: 661
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+Begin processing the 11th record. Run 1, Event 659, LumiSection 14 at 14-Jun-2021 15:43:58.334 CEST
+%MSG-w Muon:  L3MuonProducer:hltL3NoFiltersNoVtxMuonsOIState  14-Jun-2021 15:43:59 CEST Run: 1 Event: 659
+     Failed to load tracker track trajectory
+%MSG
+%MSG-w RecoMuon:  L3MuonProducer:hltL3NoFiltersNoVtxMuonsOIState  14-Jun-2021 15:43:59 CEST Run: 1 Event: 659
+     Failed to load tracker track trajectory
+%MSG
+%MSG-w GlobalMuon:  L3MuonProducer:hltL3NoFiltersNoVtxMuonsOIState  14-Jun-2021 15:43:59 CEST Run: 1 Event: 659
+     Failed to load tracker track trajectory
+%MSG
+%MSG-w GlobalTrajectoryBuilderBase:   L3MuonProducer:hltL3NoFiltersNoVtxMuonsOIState 14-Jun-2021 15:43:59 CEST  Run: 1 Event: 659
+     Failed to load tracker track trajectory
+%MSG
+Begin processing the 12th record. Run 1, Event 663, LumiSection 14 at 14-Jun-2021 15:44:07.997 CEST
+Begin processing the 13th record. Run 1, Event 662, LumiSection 14 at 14-Jun-2021 15:44:14.870 CEST
+%MSG-e TrajectoryNotPosDef:   TrackProducer:hltIter2ElectronsCtfWithMaterialTracks 14-Jun-2021 15:44:16 CEST  Run: 1 Event: 662
+Trajectory covariance is not positive-definite
+%MSG
+Begin processing the 14th record. Run 1, Event 666, LumiSection 14 at 14-Jun-2021 15:44:19.896 CEST
+Begin processing the 15th record. Run 1, Event 667, LumiSection 14 at 14-Jun-2021 15:44:21.880 CEST
+Begin processing the 16th record. Run 1, Event 665, LumiSection 14 at 14-Jun-2021 15:44:25.675 CEST
+Begin processing the 17th record. Run 1, Event 668, LumiSection 14 at 14-Jun-2021 15:44:31.316 CEST
+Begin processing the 18th record. Run 1, Event 669, LumiSection 14 at 14-Jun-2021 15:44:36.455 CEST
+Begin processing the 19th record. Run 1, Event 664, LumiSection 14 at 14-Jun-2021 15:44:41.087 CEST
+Begin processing the 20th record. Run 1, Event 671, LumiSection 14 at 14-Jun-2021 15:44:52.074 CEST
+Begin processing the 21st record. Run 1, Event 670, LumiSection 14 at 14-Jun-2021 15:44:59.115 CEST
+Begin processing the 22nd record. Run 1, Event 672, LumiSection 14 at 14-Jun-2021 15:44:59.839 CEST
+Begin processing the 23rd record. Run 1, Event 673, LumiSection 14 at 14-Jun-2021 15:45:00.672 CEST
+Begin processing the 24th record. Run 1, Event 675, LumiSection 14 at 14-Jun-2021 15:45:11.654 CEST
+Begin processing the 25th record. Run 1, Event 677, LumiSection 14 at 14-Jun-2021 15:45:15.455 CEST
+Begin processing the 26th record. Run 1, Event 678, LumiSection 14 at 14-Jun-2021 15:45:16.383 CEST
+Begin processing the 27th record. Run 1, Event 674, LumiSection 14 at 14-Jun-2021 15:45:23.574 CEST
+Begin processing the 28th record. Run 1, Event 676, LumiSection 14 at 14-Jun-2021 15:45:31.375 CEST
+Begin processing the 29th record. Run 1, Event 679, LumiSection 14 at 14-Jun-2021 15:45:48.777 CEST
+Begin processing the 30th record. Run 1, Event 681, LumiSection 14 at 14-Jun-2021 15:45:51.921 CEST
+Begin processing the 31st record. Run 1, Event 680, LumiSection 14 at 14-Jun-2021 15:45:54.757 CEST
+Begin processing the 32nd record. Run 1, Event 685, LumiSection 14 at 14-Jun-2021 15:46:00.646 CEST
+Begin processing the 33rd record. Run 1, Event 684, LumiSection 14 at 14-Jun-2021 15:46:11.178 CEST
+Begin processing the 34th record. Run 1, Event 682, LumiSection 14 at 14-Jun-2021 15:46:16.721 CEST
+Begin processing the 35th record. Run 1, Event 683, LumiSection 14 at 14-Jun-2021 15:46:19.659 CEST
+Begin processing the 36th record. Run 1, Event 686, LumiSection 14 at 14-Jun-2021 15:46:24.330 CEST
+Begin processing the 37th record. Run 1, Event 687, LumiSection 14 at 14-Jun-2021 15:46:24.837 CEST
+Begin processing the 38th record. Run 1, Event 689, LumiSection 14 at 14-Jun-2021 15:46:30.802 CEST
+Begin processing the 39th record. Run 1, Event 688, LumiSection 14 at 14-Jun-2021 15:46:31.720 CEST
+Begin processing the 40th record. Run 1, Event 691, LumiSection 14 at 14-Jun-2021 15:46:43.327 CEST
+%MSG-w Muon:  L3MuonProducer:hltL3NoFiltersNoVtxMuonsOIHit  14-Jun-2021 15:46:43 CEST Run: 1 Event: 691
+     Failed to load tracker track trajectory
+%MSG
+%MSG-w RecoMuon:  L3MuonProducer:hltL3NoFiltersNoVtxMuonsOIHit  14-Jun-2021 15:46:43 CEST Run: 1 Event: 691
+     Failed to load tracker track trajectory
+%MSG
+%MSG-w GlobalMuon:  L3MuonProducer:hltL3NoFiltersNoVtxMuonsOIHit  14-Jun-2021 15:46:43 CEST Run: 1 Event: 691
+     Failed to load tracker track trajectory
+%MSG
+%MSG-w GlobalTrajectoryBuilderBase:   L3MuonProducer:hltL3NoFiltersNoVtxMuonsOIHit 14-Jun-2021 15:46:43 CEST  Run: 1 Event: 691
+     Failed to load tracker track trajectory
+%MSG
+Begin processing the 41st record. Run 1, Event 692, LumiSection 14 at 14-Jun-2021 15:46:47.879 CEST
+Begin processing the 42nd record. Run 1, Event 690, LumiSection 14 at 14-Jun-2021 15:46:54.521 CEST
+Begin processing the 43rd record. Run 1, Event 693, LumiSection 14 at 14-Jun-2021 15:47:01.607 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsEDProducer:hltFullIter9TobTecSeedsPair  14-Jun-2021 15:47:10 CEST Run: 1 Event: 693
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+Begin processing the 44th record. Run 1, Event 695, LumiSection 14 at 14-Jun-2021 15:47:11.135 CEST
+Begin processing the 45th record. Run 1, Event 694, LumiSection 14 at 14-Jun-2021 15:47:13.508 CEST
+Begin processing the 46th record. Run 1, Event 696, LumiSection 14 at 14-Jun-2021 15:47:17.100 CEST
+Begin processing the 47th record. Run 1, Event 700, LumiSection 14 at 14-Jun-2021 15:47:21.256 CEST
+Begin processing the 48th record. Run 1, Event 699, LumiSection 14 at 14-Jun-2021 15:47:25.959 CEST
+Begin processing the 49th record. Run 1, Event 698, LumiSection 14 at 14-Jun-2021 15:47:27.319 CEST
+Begin processing the 50th record. Run 1, Event 697, LumiSection 14 at 14-Jun-2021 15:47:31.480 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsEDProducer:hltFullIter9TobTecSeedsPair  14-Jun-2021 15:47:48 CEST Run: 1 Event: 697
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+14-Jun-2021 15:47:50 CEST  Closed file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau100p0/step_DIGIPremix_2017UL_6.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GlobalMuon           -w L3MuonProducer:h                       1        1
+    2 GlobalMuon           -w L3MuonProducer:h                       1        1
+    3 GlobalTrajectoryBuil -w L3MuonProducer:h                       1        1
+    4 GlobalTrajectoryBuil -w L3MuonProducer:h                       1        1
+    5 InvalidHelix         -w SeedCreatorFromR                       2        2
+    6 InvalidHelix         -w SeedCreatorFromR                       1        1
+    7 InvalidInputTag      -w CSCHaloDataProdu                       1        1
+    8 Muon                 -w L3MuonProducer:h                       1        1
+    9 Muon                 -w L3MuonProducer:h                       1        1
+   10 RecoMuon             -w L3MuonProducer:h                       1        1
+   11 RecoMuon             -w L3MuonProducer:h                       1        1
+   12 TrajectoryNotPosDef  -e TrackProducer:hl                       1        1
+   13 fileAction           -s file_close                             1        1
+   14 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GlobalMuon           1/691                             
+    2 GlobalMuon           1/659                             
+    3 GlobalTrajectoryBuilderBase 1/691                             
+    4 GlobalTrajectoryBuilderBase 1/659                             
+    5 InvalidHelix         1/693            1/697            
+    6 InvalidHelix         1/661                             
+    7 InvalidInputTag      1/652                             
+    8 Muon                 1/691                             
+    9 Muon                 1/659                             
+   10 RecoMuon             1/691                             
+   11 RecoMuon             1/659                             
+   12 TrajectoryNotPosDef  1/662                             
+   13 fileAction           PostGlobalEndRun                  
+   14 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                12                  12
+Error                   1                   1
+System                  3                   3
+
+dropped waiting message count 0

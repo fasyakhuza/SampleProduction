@@ -1,0 +1,111 @@
+14-Jun-2021 15:46:53 CEST  Initiating request to open file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/step_DIGIPremix_2017UL_4.root
+14-Jun-2021 15:46:56 CEST  Successfully opened file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/step_DIGIPremix_2017UL_4.root
+Begin processing the 1st record. Run 1, Event 552, LumiSection 12 at 14-Jun-2021 15:48:23.766 CEST
+Begin processing the 2nd record. Run 1, Event 554, LumiSection 12 at 14-Jun-2021 15:48:32.732 CEST
+Begin processing the 3rd record. Run 1, Event 553, LumiSection 12 at 14-Jun-2021 15:48:35.004 CEST
+Begin processing the 4th record. Run 1, Event 556, LumiSection 12 at 14-Jun-2021 15:48:35.819 CEST
+Begin processing the 5th record. Run 1, Event 551, LumiSection 12 at 14-Jun-2021 15:48:36.733 CEST
+Begin processing the 6th record. Run 1, Event 558, LumiSection 12 at 14-Jun-2021 15:48:39.012 CEST
+Begin processing the 7th record. Run 1, Event 557, LumiSection 12 at 14-Jun-2021 15:48:40.464 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsTripletOnlyEDProducer:hltFullIter8PixelLessSeeds  14-Jun-2021 15:48:51 CEST Run: 1 Event: 557
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+Begin processing the 8th record. Run 1, Event 555, LumiSection 12 at 14-Jun-2021 15:48:55.229 CEST
+Begin processing the 9th record. Run 1, Event 560, LumiSection 12 at 14-Jun-2021 15:48:58.803 CEST
+Begin processing the 10th record. Run 1, Event 559, LumiSection 12 at 14-Jun-2021 15:49:06.198 CEST
+Begin processing the 11th record. Run 1, Event 562, LumiSection 12 at 14-Jun-2021 15:49:07.148 CEST
+Begin processing the 12th record. Run 1, Event 563, LumiSection 12 at 14-Jun-2021 15:49:09.276 CEST
+%MSG-w InvalidInputTag:  CSCHaloDataProducer:hltCSCHaloData  14-Jun-2021 15:49:09 CEST Run: 1 Event: 563
+ The Cosmic Muon collection does not appear to be in the event. These beam halo  identification variables will be empty
+%MSG
+Begin processing the 13th record. Run 1, Event 564, LumiSection 12 at 14-Jun-2021 15:49:09.928 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsEDProducer:hltFullIter9TobTecSeedsPair  14-Jun-2021 15:49:15 CEST Run: 1 Event: 564
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+Begin processing the 14th record. Run 1, Event 561, LumiSection 12 at 14-Jun-2021 15:49:15.883 CEST
+Begin processing the 15th record. Run 1, Event 568, LumiSection 12 at 14-Jun-2021 15:49:20.461 CEST
+Begin processing the 16th record. Run 1, Event 566, LumiSection 12 at 14-Jun-2021 15:49:21.207 CEST
+Begin processing the 17th record. Run 1, Event 565, LumiSection 12 at 14-Jun-2021 15:49:24.605 CEST
+Begin processing the 18th record. Run 1, Event 571, LumiSection 12 at 14-Jun-2021 15:49:29.162 CEST
+Begin processing the 19th record. Run 1, Event 569, LumiSection 12 at 14-Jun-2021 15:49:37.520 CEST
+Begin processing the 20th record. Run 1, Event 567, LumiSection 12 at 14-Jun-2021 15:49:41.682 CEST
+Begin processing the 21st record. Run 1, Event 572, LumiSection 12 at 14-Jun-2021 15:49:44.615 CEST
+Begin processing the 22nd record. Run 1, Event 575, LumiSection 12 at 14-Jun-2021 15:49:50.686 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsTripletOnlyEDProducer:hltFullIter8PixelLessSeeds  14-Jun-2021 15:50:02 CEST Run: 1 Event: 575
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+Begin processing the 23rd record. Run 1, Event 573, LumiSection 12 at 14-Jun-2021 15:50:06.143 CEST
+Begin processing the 24th record. Run 1, Event 576, LumiSection 12 at 14-Jun-2021 15:50:14.867 CEST
+Begin processing the 25th record. Run 1, Event 574, LumiSection 12 at 14-Jun-2021 15:50:15.809 CEST
+Begin processing the 26th record. Run 1, Event 570, LumiSection 12 at 14-Jun-2021 15:50:19.230 CEST
+Begin processing the 27th record. Run 1, Event 579, LumiSection 12 at 14-Jun-2021 15:50:27.733 CEST
+Begin processing the 28th record. Run 1, Event 578, LumiSection 12 at 14-Jun-2021 15:50:29.313 CEST
+Begin processing the 29th record. Run 1, Event 577, LumiSection 12 at 14-Jun-2021 15:50:36.992 CEST
+Begin processing the 30th record. Run 1, Event 580, LumiSection 12 at 14-Jun-2021 15:50:40.865 CEST
+%MSG-e TrajectoryNotPosDef:   TrackProducer:hltIter2PFlowCtfWithMaterialTracksForPhotons  14-Jun-2021 15:50:42 CEST Run: 1 Event: 580
+Trajectory covariance is not positive-definite
+%MSG
+Begin processing the 31st record. Run 1, Event 581, LumiSection 12 at 14-Jun-2021 15:50:53.174 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsEDProducer:hltFullIter9TobTecSeedsTripl  14-Jun-2021 15:51:10 CEST Run: 1 Event: 581
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+Begin processing the 32nd record. Run 1, Event 582, LumiSection 12 at 14-Jun-2021 15:51:12.946 CEST
+Begin processing the 33rd record. Run 1, Event 585, LumiSection 12 at 14-Jun-2021 15:51:15.595 CEST
+Begin processing the 34th record. Run 1, Event 583, LumiSection 12 at 14-Jun-2021 15:51:27.460 CEST
+Begin processing the 35th record. Run 1, Event 584, LumiSection 12 at 14-Jun-2021 15:51:32.528 CEST
+Begin processing the 36th record. Run 1, Event 586, LumiSection 12 at 14-Jun-2021 15:51:35.730 CEST
+Begin processing the 37th record. Run 1, Event 587, LumiSection 12 at 14-Jun-2021 15:51:57.445 CEST
+Begin processing the 38th record. Run 1, Event 589, LumiSection 12 at 14-Jun-2021 15:51:58.807 CEST
+Begin processing the 39th record. Run 1, Event 588, LumiSection 12 at 14-Jun-2021 15:51:59.669 CEST
+%MSG-e TrajectoryNotPosDef:   TrackProducer:hltIter2ElectronsCtfWithMaterialTracks 14-Jun-2021 15:52:00 CEST  Run: 1 Event: 588
+Trajectory covariance is not positive-definite
+%MSG
+%MSG-e TrajectoryNotPosDef:   TrackProducer:hltIter2PFlowCtfWithMaterialTracksForPhotons  14-Jun-2021 15:52:05 CEST Run: 1 Event: 588
+Trajectory covariance is not positive-definite
+%MSG
+Begin processing the 40th record. Run 1, Event 591, LumiSection 12 at 14-Jun-2021 15:52:05.954 CEST
+Begin processing the 41st record. Run 1, Event 590, LumiSection 12 at 14-Jun-2021 15:52:08.675 CEST
+Begin processing the 42nd record. Run 1, Event 592, LumiSection 12 at 14-Jun-2021 15:52:16.177 CEST
+Begin processing the 43rd record. Run 1, Event 593, LumiSection 12 at 14-Jun-2021 15:52:22.274 CEST
+Begin processing the 44th record. Run 1, Event 594, LumiSection 12 at 14-Jun-2021 15:52:23.758 CEST
+Begin processing the 45th record. Run 1, Event 595, LumiSection 12 at 14-Jun-2021 15:52:38.142 CEST
+Begin processing the 46th record. Run 1, Event 598, LumiSection 12 at 14-Jun-2021 15:52:44.413 CEST
+Begin processing the 47th record. Run 1, Event 600, LumiSection 12 at 14-Jun-2021 15:52:45.541 CEST
+Begin processing the 48th record. Run 1, Event 596, LumiSection 12 at 14-Jun-2021 15:52:50.877 CEST
+Begin processing the 49th record. Run 1, Event 597, LumiSection 12 at 14-Jun-2021 15:52:56.583 CEST
+Begin processing the 50th record. Run 1, Event 599, LumiSection 12 at 14-Jun-2021 15:53:02.235 CEST
+14-Jun-2021 15:53:04 CEST  Closed file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/step_DIGIPremix_2017UL_4.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 InvalidHelix         -w SeedCreatorFromR                       1        1
+    2 InvalidHelix         -w SeedCreatorFromR                       1        1
+    3 InvalidHelix         -w SeedCreatorFromR                       2        2
+    4 InvalidInputTag      -w CSCHaloDataProdu                       1        1
+    5 TrajectoryNotPosDef  -e TrackProducer:hl                       1        1
+    6 TrajectoryNotPosDef  -e TrackProducer:hl                       2        2
+    7 fileAction           -s file_close                             1        1
+    8 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 InvalidHelix         1/564                             
+    2 InvalidHelix         1/581                             
+    3 InvalidHelix         1/557            1/575            
+    4 InvalidInputTag      1/563                             
+    5 TrajectoryNotPosDef  1/588                             
+    6 TrajectoryNotPosDef  1/580            1/588            
+    7 fileAction           PostGlobalEndRun                  
+    8 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 5                   5
+Error                   3                   3
+System                  3                   3
+
+dropped waiting message count 0
