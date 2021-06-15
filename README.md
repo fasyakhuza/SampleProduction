@@ -29,9 +29,9 @@ cd ../Configuration/GenProduction/python
 ```
  Run: 
 ```
-python createFragments_2017.py
+python createFragments_2017.py  
 ```  
-#### It will create cfg file from different gridpack and for different ctau values
+#### Change this file, name of gridpack, ctau values in mm, dark matter mass. It will create cfg file from different gridpack and for different ctau values.
 
 ```
 cd ${CMSSW_BASE}/src
@@ -41,18 +41,20 @@ and then compile again:
 
 Set proxy:
 ```
-voms-proxy.int
+voms-proxy-init --voms cms -valid 192:00
 ```
 ## STEP2: wGen
 ```
 cd SampleProduction/wGen_step
 ```
-change storage path in the file ../skeleton/wgen_crab_basefile.py
-change/new json file to change gridpack location, name, input data tag, Nevents, Njobs etc.. 
+In next step: 
+1. change storage path in the file **../skeleton/wgen_crab_basefile.py** .
+2. change/create new **.json** file to change gridpack location, name, input data tag, Nevents, Njobs etc... One can put many sample name in the json file.
 
+Run:
 ```python config_wgen.py -i input_mphi_500_mchi_150_and_1.json```  with input of a json file
 
-It will create a sh file **create_confg_run_crab.sh** which contain everyting and will submit crab jobs
+It will create a sh file **create_confg_run_crab.sh** which contain everyting and will submit crab jobs.
 
 To run and submit crab job: ```sh create_confg_run_crab.sh```
 
