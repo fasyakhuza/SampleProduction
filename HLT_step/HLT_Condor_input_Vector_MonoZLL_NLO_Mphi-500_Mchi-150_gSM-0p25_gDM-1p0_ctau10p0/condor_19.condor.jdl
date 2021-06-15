@@ -1,0 +1,7 @@
+universe              = vanilla
+executable            = /afs/cern.ch/work/t/tsarkar/private/LV/GenProduction_V1/CMSSW_9_4_14_UL_patch1/src/HLT_step/HLT_Condor_input_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/run_19.sh
+arguments             = $(ClusterID) $(ProcId)
+output                = /afs/cern.ch/work/t/tsarkar/private/LV/GenProduction_V1/CMSSW_9_4_14_UL_patch1/src/HLT_step/HLT_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/job_19.out
+error                 = /afs/cern.ch/work/t/tsarkar/private/LV/GenProduction_V1/CMSSW_9_4_14_UL_patch1/src/HLT_step/HLT_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/job_19.err
+log                   = /afs/cern.ch/work/t/tsarkar/private/LV/GenProduction_V1/CMSSW_9_4_14_UL_patch1/src/HLT_step/HLT_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/job_19.log
+queue

@@ -1,0 +1,89 @@
+14-Jun-2021 15:40:52 CEST  Initiating request to open file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/step_DIGIPremix_2017UL_11.root
+14-Jun-2021 15:40:57 CEST  Successfully opened file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/step_DIGIPremix_2017UL_11.root
+Begin processing the 1st record. Run 1, Event 903, LumiSection 19 at 14-Jun-2021 15:42:58.677 CEST
+Begin processing the 2nd record. Run 1, Event 901, LumiSection 19 at 14-Jun-2021 15:43:11.956 CEST
+Begin processing the 3rd record. Run 1, Event 904, LumiSection 19 at 14-Jun-2021 15:43:22.454 CEST
+Begin processing the 4th record. Run 1, Event 905, LumiSection 19 at 14-Jun-2021 15:43:25.720 CEST
+Begin processing the 5th record. Run 1, Event 902, LumiSection 19 at 14-Jun-2021 15:43:29.285 CEST
+%MSG-w InvalidInputTag:  CSCHaloDataProducer:hltCSCHaloData  14-Jun-2021 15:43:39 CEST Run: 1 Event: 902
+ The Cosmic Muon collection does not appear to be in the event. These beam halo  identification variables will be empty
+%MSG
+Begin processing the 6th record. Run 1, Event 908, LumiSection 19 at 14-Jun-2021 15:43:39.563 CEST
+Begin processing the 7th record. Run 1, Event 909, LumiSection 19 at 14-Jun-2021 15:43:40.800 CEST
+Begin processing the 8th record. Run 1, Event 907, LumiSection 19 at 14-Jun-2021 15:43:41.863 CEST
+Begin processing the 9th record. Run 1, Event 911, LumiSection 19 at 14-Jun-2021 15:43:44.226 CEST
+Begin processing the 10th record. Run 1, Event 910, LumiSection 19 at 14-Jun-2021 15:43:51.816 CEST
+Begin processing the 11th record. Run 1, Event 906, LumiSection 19 at 14-Jun-2021 15:43:59.927 CEST
+Begin processing the 12th record. Run 1, Event 912, LumiSection 19 at 14-Jun-2021 15:44:05.433 CEST
+Begin processing the 13th record. Run 1, Event 914, LumiSection 19 at 14-Jun-2021 15:44:06.186 CEST
+Begin processing the 14th record. Run 1, Event 915, LumiSection 19 at 14-Jun-2021 15:44:11.312 CEST
+Begin processing the 15th record. Run 1, Event 913, LumiSection 19 at 14-Jun-2021 15:44:20.750 CEST
+Begin processing the 16th record. Run 1, Event 917, LumiSection 19 at 14-Jun-2021 15:44:30.726 CEST
+Begin processing the 17th record. Run 1, Event 919, LumiSection 19 at 14-Jun-2021 15:44:31.420 CEST
+Begin processing the 18th record. Run 1, Event 916, LumiSection 19 at 14-Jun-2021 15:44:32.264 CEST
+Begin processing the 19th record. Run 1, Event 918, LumiSection 19 at 14-Jun-2021 15:44:38.050 CEST
+Begin processing the 20th record. Run 1, Event 920, LumiSection 19 at 14-Jun-2021 15:44:40.899 CEST
+Begin processing the 21st record. Run 1, Event 921, LumiSection 19 at 14-Jun-2021 15:44:47.657 CEST
+Begin processing the 22nd record. Run 1, Event 923, LumiSection 19 at 14-Jun-2021 15:44:48.621 CEST
+Begin processing the 23rd record. Run 1, Event 924, LumiSection 19 at 14-Jun-2021 15:44:52.622 CEST
+Begin processing the 24th record. Run 1, Event 922, LumiSection 19 at 14-Jun-2021 15:44:55.993 CEST
+Begin processing the 25th record. Run 1, Event 925, LumiSection 19 at 14-Jun-2021 15:45:05.372 CEST
+Begin processing the 26th record. Run 1, Event 927, LumiSection 19 at 14-Jun-2021 15:45:18.002 CEST
+Begin processing the 27th record. Run 1, Event 926, LumiSection 19 at 14-Jun-2021 15:45:18.947 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsEDProducer:hltFullIter6PixelSeedsA  14-Jun-2021 15:45:29 CEST Run: 1 Event: 926
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+Begin processing the 28th record. Run 1, Event 928, LumiSection 19 at 14-Jun-2021 15:45:34.661 CEST
+Begin processing the 29th record. Run 1, Event 930, LumiSection 19 at 14-Jun-2021 15:45:35.991 CEST
+Begin processing the 30th record. Run 1, Event 932, LumiSection 19 at 14-Jun-2021 15:45:37.727 CEST
+Begin processing the 31st record. Run 1, Event 929, LumiSection 19 at 14-Jun-2021 15:45:38.471 CEST
+Begin processing the 32nd record. Run 1, Event 934, LumiSection 19 at 14-Jun-2021 15:45:42.777 CEST
+Begin processing the 33rd record. Run 1, Event 936, LumiSection 19 at 14-Jun-2021 15:45:45.116 CEST
+Begin processing the 34th record. Run 1, Event 933, LumiSection 19 at 14-Jun-2021 15:45:46.370 CEST
+Begin processing the 35th record. Run 1, Event 935, LumiSection 19 at 14-Jun-2021 15:45:49.977 CEST
+Begin processing the 36th record. Run 1, Event 931, LumiSection 19 at 14-Jun-2021 15:45:54.379 CEST
+Begin processing the 37th record. Run 1, Event 937, LumiSection 19 at 14-Jun-2021 15:46:05.174 CEST
+%MSG-w EnergyInDeadEB_FE:  EcalRecHitProducer:hltEcalRecHit  14-Jun-2021 15:46:05 CEST Run: 1 Event: 937
+TP energy in the dead TT = 127.5 at (EcalTT subDet Barrel iz -  ieta 10 iphi 53)
+%MSG
+Begin processing the 38th record. Run 1, Event 940, LumiSection 19 at 14-Jun-2021 15:46:10.599 CEST
+Begin processing the 39th record. Run 1, Event 939, LumiSection 19 at 14-Jun-2021 15:46:14.359 CEST
+Begin processing the 40th record. Run 1, Event 941, LumiSection 19 at 14-Jun-2021 15:46:26.387 CEST
+Begin processing the 41st record. Run 1, Event 938, LumiSection 19 at 14-Jun-2021 15:46:28.370 CEST
+Begin processing the 42nd record. Run 1, Event 942, LumiSection 19 at 14-Jun-2021 15:46:39.189 CEST
+Begin processing the 43rd record. Run 1, Event 943, LumiSection 19 at 14-Jun-2021 15:46:42.470 CEST
+Begin processing the 44th record. Run 1, Event 944, LumiSection 19 at 14-Jun-2021 15:46:47.494 CEST
+Begin processing the 45th record. Run 1, Event 946, LumiSection 19 at 14-Jun-2021 15:46:56.006 CEST
+Begin processing the 46th record. Run 1, Event 948, LumiSection 19 at 14-Jun-2021 15:46:58.899 CEST
+Begin processing the 47th record. Run 1, Event 945, LumiSection 19 at 14-Jun-2021 15:47:07.557 CEST
+Begin processing the 48th record. Run 1, Event 947, LumiSection 19 at 14-Jun-2021 15:47:15.700 CEST
+Begin processing the 49th record. Run 1, Event 949, LumiSection 19 at 14-Jun-2021 15:47:21.991 CEST
+Begin processing the 50th record. Run 1, Event 950, LumiSection 19 at 14-Jun-2021 15:47:23.185 CEST
+14-Jun-2021 15:47:39 CEST  Closed file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau10p0/step_DIGIPremix_2017UL_11.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 EnergyInDeadEB_FE    -w EcalRecHitProduc                       1        1
+    2 InvalidHelix         -w SeedCreatorFromR                       1        1
+    3 InvalidInputTag      -w CSCHaloDataProdu                       1        1
+    4 fileAction           -s file_close                             1        1
+    5 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 EnergyInDeadEB_FE    1/937                             
+    2 InvalidHelix         1/926                             
+    3 InvalidInputTag      1/902                             
+    4 fileAction           PostGlobalEndRun                  
+    5 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 3                   3
+System                  3                   3
+
+dropped waiting message count 0
