@@ -75,11 +75,11 @@ The to submit condor jobs for SIM step just run: ```sh create_submit_condor_sim_
 ```
 cd ../DigiPremix_step
 ```
-Prepare file like ```create_infile.sh``` which contain output path and directory name of previous SIM step output
+Prepare file like ```create_infile.sh``` which contain output path and directory name of previous SIM step output.
 
-run: ```sh create_infile.sh``` It will create some **.txt file, contains each root file path of SIM step
+run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of SIM step.
 
-#### Remember to change your output path and directory name of SIM step or create new file like this
+#### Remember to change your output path and directory name of SIM step or create new file like this.
 
 The to submit condor jobs for DIGIPremix step just run: ```sh create_submit_condor_digiPremix_Mphi-500_Mchi-150_jobs.sh```
 
@@ -87,13 +87,13 @@ The to submit condor jobs for DIGIPremix step just run: ```sh create_submit_cond
 ```
 cd ../../../../CMSSW_9_4_14_UL_patch1/src/HLT_step
 ```
-```cmsenv``` **This is different CMSSW version specially for HLT step**
+```cmsenv``` **This is different CMSSW version specially for HLT step**.
 
-Prepare file like ```create_infile.sh``` which contain output path and directory name of previous DIGIPremix step output
+Prepare file like ```create_infile.sh``` which contain output path and directory name of previous DIGIPremix step output.
 
-run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of DIGIPremix step
+run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of DIGIPremix step.
 
-#### Remember to change your output path and directory name of DIGIPremix step or create new file like this
+#### Remember to change your output path and directory name of DIGIPremix step or create new file like this.
 
 To submit condor jobs for HLT step just run: ```sh create_submit_condor_hlt_Mphi-500_Mchi-150_jobs.sh```
 
