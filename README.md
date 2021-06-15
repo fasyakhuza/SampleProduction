@@ -102,22 +102,22 @@ To submit condor jobs for HLT step just run: ```sh create_submit_condor_hlt_Mphi
 cd ../../../CMSSW_10_6_18/src/SampleProduction/RECO_step/
 cmsenv
 ```
-Prepare file like ```create_infile.sh``` which contain output path and directory name of previous HLT step output
+Prepare file like ```create_infile.sh``` which contain output path and directory name of previous HLT step output.
 
-run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of HLT step
+run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of HLT step.
 
-#### Remember to change your output path and directory name of HLT step or create new file like this
+#### Remember to change your output path and directory name of HLT step or create new file like this.
 
 To submit condor jobs for RECO step just do run: ```sh create_submit_condor_reco_Mphi-500_Mchi-150_jobs.sh```
 
-## STEP7: MiniAOD (Same as previous step)
+## STEP7: MiniAOD
 ```
 cd ../MiniAOD_step
 ```
-Prepare ```file like create_infile.sh``` which contain output path and directory name of previous RECO step output
+Prepare ```file like create_infile.sh``` which contain output path and directory name of previous RECO step output.
 
-run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of RECO step
+run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of RECO step.
 
-###### Remember to change output path and directory name of RECO step or create new file like this
+###### Remember to change output path and directory name of RECO step or create new file like this.
 
 To submit condor jobs for MiniAOD step just run: ```sh create_submit_condor_MiniAOD_Mphi-500_Mchi-150_jobs.sh```
