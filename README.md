@@ -29,9 +29,9 @@ cd ../Configuration/GenProduction/python
 ```
  Run: 
 ```
-python createFragments_2017.py
+python createFragments_2017.py  
 ```  
-#### It will create cfg file from different gridpack and for different ctau values
+#### Change this file, name of gridpack, ctau values in mm, dark matter mass. It will create cfg file from different gridpack and for different ctau values
 
 ```
 cd ${CMSSW_BASE}/src
