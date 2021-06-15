@@ -71,7 +71,7 @@ run: ```sh create_infile.sh``` It will create some **.txt file, contains each ro
 The to submit condor jobs for SIM step just run: ```sh create_submit_condor_sim_Mphi-500_Mchi-150_jobs.sh```
 
 
-## STEP4: DIGIPremix (Same as SIM step)
+## STEP4: DIGIPremix
 ```
 cd ../DigiPremix_step
 ```
@@ -83,7 +83,7 @@ run: ```sh create_infile.sh``` It will create some **.txt** file, contains each 
 
 The to submit condor jobs for DIGIPremix step just run: ```sh create_submit_condor_digiPremix_Mphi-500_Mchi-150_jobs.sh```
 
-## STEP5: HLT (Same as previous step)
+## STEP5: HLT
 ```
 cd ../../../../CMSSW_9_4_14_UL_patch1/src/HLT_step
 ```
@@ -97,7 +97,7 @@ run: ```sh create_infile.sh``` It will create some **.txt** file, contains each 
 
 To submit condor jobs for HLT step just run: ```sh create_submit_condor_hlt_Mphi-500_Mchi-150_jobs.sh```
 
-## STEP6: RECO (Same as previous step)
+## STEP6: RECO
 ```
 cd ../../../CMSSW_10_6_18/src/SampleProduction/RECO_step/
 cmsenv
