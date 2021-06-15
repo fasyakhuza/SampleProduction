@@ -62,11 +62,11 @@ To run and submit crab job: ```sh create_confg_run_crab.sh```
 ```
 cd ../SIM_step
 ```
-Prepare file like ```create_infile.sh``` which contain output path and directory name of previous wGen step output
+Prepare file like ```create_infile.sh``` which contain output path and directory name of previous wGen step output.
 
-run: ```sh create_infile.sh``` It will create some **.txt file, contains each root file path of wGen step
+run: ```sh create_infile.sh``` It will create some **.txt file, contains each root file path of wGen step.
 
-#### Remember to change output path and directory name of wGen step in this file or create new file like this
+#### Remember to change output path and directory name of wGen step in this file or create new file like this.
 
 The to submit condor jobs for SIM step just run: ```sh create_submit_condor_sim_Mphi-500_Mchi-150_jobs.sh```
 
