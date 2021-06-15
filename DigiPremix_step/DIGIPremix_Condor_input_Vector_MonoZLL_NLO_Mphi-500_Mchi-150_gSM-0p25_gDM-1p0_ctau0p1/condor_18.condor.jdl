@@ -1,7 +1,0 @@
-universe              = vanilla
-executable            = /afs/cern.ch/work/t/tsarkar/private/LV/GenProduction_V1/CMSSW_10_6_18/src/DigiPremix_step/DIGIPremix_Condor_input_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau0p1/run_18.sh
-arguments             = $(ClusterID) $(ProcId)
-output                = /afs/cern.ch/work/t/tsarkar/private/LV/GenProduction_V1/CMSSW_10_6_18/src/DigiPremix_step/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau0p1/job_18.out
-error                 = /afs/cern.ch/work/t/tsarkar/private/LV/GenProduction_V1/CMSSW_10_6_18/src/DigiPremix_step/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau0p1/job_18.err
-log                   = /afs/cern.ch/work/t/tsarkar/private/LV/GenProduction_V1/CMSSW_10_6_18/src/DigiPremix_step/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau0p1/job_18.log
-queue

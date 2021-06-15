@@ -40,8 +40,8 @@ def create_jobs(input_rootfiles):
           	condor_script = re.sub('JOB_NUMBER', str(i), condor_script)
           	condor_script = re.sub('OUTPUT', os.path.join(output_dir), condor_script)
 
-          	#open(os.path.join(run_dir, 'condor_{}.condor.jdl'.format(i)), 'w').write(condor_script)
-		#subprocess.call(["condor_submit",  "{0}".format(os.path.join(run_dir, 'condor_{}.condor.jdl'.format(i)))])
+          	open(os.path.join(run_dir, 'condor_{}.condor.jdl'.format(i)), 'w').write(condor_script)
+		subprocess.call(["condor_submit",  "{0}".format(os.path.join(run_dir, 'condor_{}.condor.jdl'.format(i)))])
 		#out_txtfile.write(dir_name+"/"+outfile+'\n')
 
 def main():
