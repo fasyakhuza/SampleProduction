@@ -1,0 +1,176 @@
+14-Jun-2021 15:46:35 CEST  Initiating request to open file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau1p0/step_DIGIPremix_2017UL_2.root
+14-Jun-2021 15:46:38 CEST  Successfully opened file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau1p0/step_DIGIPremix_2017UL_2.root
+Begin processing the 1st record. Run 1, Event 453, LumiSection 10 at 14-Jun-2021 15:48:02.376 CEST
+Begin processing the 2nd record. Run 1, Event 451, LumiSection 10 at 14-Jun-2021 15:48:11.627 CEST
+Begin processing the 3rd record. Run 1, Event 454, LumiSection 10 at 14-Jun-2021 15:48:12.616 CEST
+%MSG-w InvalidInputTag:  CSCHaloDataProducer:hltCSCHaloData  14-Jun-2021 15:48:18 CEST Run: 1 Event: 454
+ The Cosmic Muon collection does not appear to be in the event. These beam halo  identification variables will be empty
+%MSG
+Begin processing the 4th record. Run 1, Event 457, LumiSection 10 at 14-Jun-2021 15:48:19.413 CEST
+Begin processing the 5th record. Run 1, Event 452, LumiSection 10 at 14-Jun-2021 15:48:27.465 CEST
+Begin processing the 6th record. Run 1, Event 458, LumiSection 10 at 14-Jun-2021 15:48:38.456 CEST
+Begin processing the 7th record. Run 1, Event 455, LumiSection 10 at 14-Jun-2021 15:48:41.341 CEST
+Begin processing the 8th record. Run 1, Event 459, LumiSection 10 at 14-Jun-2021 15:48:45.473 CEST
+Begin processing the 9th record. Run 1, Event 456, LumiSection 10 at 14-Jun-2021 15:48:50.798 CEST
+Begin processing the 10th record. Run 1, Event 461, LumiSection 10 at 14-Jun-2021 15:48:51.993 CEST
+Begin processing the 11th record. Run 1, Event 462, LumiSection 10 at 14-Jun-2021 15:48:53.432 CEST
+Begin processing the 12th record. Run 1, Event 463, LumiSection 10 at 14-Jun-2021 15:48:54.203 CEST
+Begin processing the 13th record. Run 1, Event 464, LumiSection 10 at 14-Jun-2021 15:49:00.740 CEST
+Begin processing the 14th record. Run 1, Event 460, LumiSection 10 at 14-Jun-2021 15:49:07.061 CEST
+Begin processing the 15th record. Run 1, Event 468, LumiSection 10 at 14-Jun-2021 15:49:17.327 CEST
+Begin processing the 16th record. Run 1, Event 467, LumiSection 10 at 14-Jun-2021 15:49:22.570 CEST
+Begin processing the 17th record. Run 1, Event 465, LumiSection 10 at 14-Jun-2021 15:49:25.827 CEST
+Begin processing the 18th record. Run 1, Event 466, LumiSection 10 at 14-Jun-2021 15:49:33.416 CEST
+Begin processing the 19th record. Run 1, Event 470, LumiSection 10 at 14-Jun-2021 15:49:47.718 CEST
+Begin processing the 20th record. Run 1, Event 471, LumiSection 10 at 14-Jun-2021 15:49:55.609 CEST
+Begin processing the 21st record. Run 1, Event 469, LumiSection 10 at 14-Jun-2021 15:50:04.770 CEST
+Begin processing the 22nd record. Run 1, Event 473, LumiSection 10 at 14-Jun-2021 15:50:10.237 CEST
+Begin processing the 23rd record. Run 1, Event 472, LumiSection 10 at 14-Jun-2021 15:50:11.358 CEST
+%MSG-e TrajectoryNotPosDef:   TrackProducer:hltIter2PFlowCtfWithMaterialTracksForPhotons  14-Jun-2021 15:50:11 CEST Run: 1 Event: 472
+Trajectory covariance is not positive-definite
+%MSG
+%MSG-w BasicTrajectoryState:   TrackProducer:hltIter2ElectronsCtfWithMaterialTracks 14-Jun-2021 15:50:12 CEST  Run: 1 Event: 472
+curv error not pos-def
+[  7.75629e+06    -53.0259     -278783    -48.1094   -0.104555
+      -53.0259 0.000757113     1.90587 0.000201211  0.00248277
+       -278783     1.90587     10020.2       1.728  0.00356827
+      -48.1094 0.000201211       1.728 -0.00466206-0.000806893
+     -0.104555  0.00248277  0.00356827-0.000806893   0.0156139 ]
+pos/mom/mf  (2.94783,-6.30496,-5.6444)   (8.84068,-18.8621,-23.371)   (-4.89454e-05,0.000104687,3.81114) 
+%MSG
+%MSG-w BasicTrajectoryState:   TrackProducer:hltIter2ElectronsCtfWithMaterialTracks 14-Jun-2021 15:50:12 CEST  Run: 1 Event: 472
+local error not pos-def
+[  7.75629e+06      280827      -26702     48.2847    -4.45461
+        280827     10167.8    -966.786     1.74702   -0.161468
+        -26702    -966.786     91.9274   -0.166403   0.0238379
+       48.2847     1.74702   -0.166403 -0.00469608-0.000769105
+      -4.45461   -0.161468   0.0238379-0.000769105   0.0354592 ]
+pos/mom/mf  (2.94783,-6.30496,-5.6444)   (8.84068,-18.8621,-23.371)   (-4.89454e-05,0.000104687,3.81114) 
+%MSG
+Begin processing the 24th record. Run 1, Event 474, LumiSection 10 at 14-Jun-2021 15:50:18.530 CEST
+%MSG-w InvalidHelix:   SeedCreatorFromRegionConsecutiveHitsEDProducer:hltFullIter9TobTecSeedsTripl  14-Jun-2021 15:50:20 CEST Run: 1 Event: 474
+PixelClusterShapeSeedComparitor helix is not valid, result is bad
+%MSG
+Begin processing the 25th record. Run 1, Event 476, LumiSection 10 at 14-Jun-2021 15:50:20.414 CEST
+Begin processing the 26th record. Run 1, Event 475, LumiSection 10 at 14-Jun-2021 15:50:29.194 CEST
+%MSG-e TrajectoryNotPosDef:   TrackProducer:hltIter2ElectronsCtfWithMaterialTracks 14-Jun-2021 15:50:30 CEST  Run: 1 Event: 475
+Trajectory covariance is not positive-definite
+%MSG
+Begin processing the 27th record. Run 1, Event 478, LumiSection 10 at 14-Jun-2021 15:50:33.740 CEST
+Begin processing the 28th record. Run 1, Event 477, LumiSection 10 at 14-Jun-2021 15:51:01.440 CEST
+Begin processing the 29th record. Run 1, Event 479, LumiSection 10 at 14-Jun-2021 15:51:10.328 CEST
+Begin processing the 30th record. Run 1, Event 483, LumiSection 10 at 14-Jun-2021 15:51:12.841 CEST
+Begin processing the 31st record. Run 1, Event 480, LumiSection 10 at 14-Jun-2021 15:51:16.887 CEST
+Begin processing the 32nd record. Run 1, Event 482, LumiSection 10 at 14-Jun-2021 15:51:21.687 CEST
+Begin processing the 33rd record. Run 1, Event 481, LumiSection 10 at 14-Jun-2021 15:51:26.556 CEST
+%MSG-w BasicTrajectoryState:  TrackProducer:hltFullIter8CtfWithMaterialTracks  14-Jun-2021 15:51:31 CEST Run: 1 Event: 481
+local error not pos-def
+[   -1.938e-08 2.64735e-06 2.79506e-05-4.81215e-05-0.000492117
+   2.64735e-06 3.46446e-05 0.000364493-0.000627391  -0.0064157
+   2.79506e-05 0.000364493  0.00384964 -0.00661152  -0.0676505
+  -4.81215e-05-0.000627391 -0.00661152   0.0113814     0.11639
+  -0.000492117  -0.0064157  -0.0676505     0.11639     1.19091 ]
+pos/mom/mf  (-23.8482,-14.8517,127.452)   (-43.814,-38.9448,142.07)   (-0.00608267,-0.00378804,3.77942) 
+%MSG
+%MSG-w BasicTrajectoryState:  TrackProducer:hltFullIter8CtfWithMaterialTracks  14-Jun-2021 15:51:31 CEST Run: 1 Event: 481
+curv error not pos-def
+[   -1.938e-08 2.36602e-05 1.12524e-05-8.33518e-05-0.000450544
+   2.36602e-05  0.00275853  0.00131164 -0.00969623  -0.0524284
+   1.12524e-05  0.00131164 0.000624459 -0.00461569  -0.0249523
+  -8.33518e-05 -0.00969623 -0.00461569   0.0341495    0.184612
+  -0.000450544  -0.0524284  -0.0249523    0.184612     0.99821 ]
+pos/mom/mf  (-23.8482,-14.8517,127.452)   (-43.814,-38.9448,142.07)   (-0.00608267,-0.00378804,3.77942) 
+%MSG
+%MSG-w BasicTrajectoryState:  TrackProducer:hltFullIter8CtfWithMaterialTracks  14-Jun-2021 15:51:31 CEST Run: 1 Event: 481
+curv error not pos-def
+[   -1.938e-08 2.36602e-05 1.12524e-05-8.48695e-05-0.000458973
+   2.36602e-05  0.00275853  0.00131173 -0.00987314  -0.0534111
+   1.12524e-05  0.00131173 0.000624549 -0.00470026  -0.0254215
+  -8.48695e-05 -0.00987314 -0.00470026   0.0354059    0.191495
+  -0.000458973  -0.0534111  -0.0254215    0.191495     1.03592 ]
+pos/mom/mf  (-23.7467,-14.7614,127.123)   (-43.815,-38.9436,142.07)   (-0.00604132,-0.00375542,3.77958) 
+%MSG
+%MSG-w BasicTrajectoryState:  TrackProducer:hltFullIter8CtfWithMaterialTracks  14-Jun-2021 15:51:31 CEST Run: 1 Event: 481
+local error not pos-def
+[   -1.938e-08-1.55785e-07-2.80753e-05-1.30558e-06-0.000503706
+  -1.55785e-07 2.52647e-07  2.1615e-05  1.4185e-06 0.000376887
+  -2.80753e-05  2.1615e-05  0.00388405 0.000183946   0.0695556
+  -1.30558e-06  1.4185e-06 0.000183946 1.53769e-05    0.003295
+  -0.000503706 0.000376887   0.0695556    0.003295     1.24766 ]
+pos/mom/mf  (-23.7467,-14.7614,127.123)   (-43.815,-38.9436,142.07)   (-0.00604132,-0.00375542,3.77958) 
+%MSG
+%MSG-w BasicTrajectoryState:  TrackProducer:hltFullIter8CtfWithMaterialTracks  14-Jun-2021 15:51:31 CEST Run: 1 Event: 481
+local error not pos-def
+[ -1.19911e-07 1.52879e-06 2.67102e-07 2.79885e-07-6.06149e-06
+   1.52879e-06  2.1621e-05 3.77964e-06 4.20621e-06-8.73126e-05
+   2.67102e-07 3.77964e-06 3.47926e-05 2.12533e-06-0.000126521
+   2.79885e-07 4.20621e-06 2.12533e-06 6.74933e-06 -4.2514e-05
+  -6.06149e-06-8.73126e-05-0.000126521 -4.2514e-05   0.0023035 ]
+pos/mom/mf  (-29.1011,-19.5228,144.573)   (-13.4103,-14.128,140.567)   (-0.0084166,-0.00564637,3.77048) 
+%MSG
+%MSG-w BasicTrajectoryState:  TrackProducer:hltFullIter8CtfWithMaterialTracks  14-Jun-2021 15:51:31 CEST Run: 1 Event: 481
+curv error not pos-def
+[ -1.19911e-07-4.93099e-07 1.05957e-05-1.22305e-06-5.88717e-06
+  -4.93099e-07 3.43073e-05-1.10688e-05 2.39084e-05 0.000132634
+   1.05957e-05-1.10688e-05   0.0010819-0.000102165-0.000465098
+  -1.22305e-06 2.39084e-05-0.000102165 7.58778e-05 0.000390979
+  -5.88717e-06 0.000132634-0.000465098 0.000390979  0.00219228 ]
+pos/mom/mf  (-29.1011,-19.5228,144.573)   (-13.4103,-14.128,140.567)   (-0.0084166,-0.00564637,3.77048) 
+%MSG
+%MSG-w TrackNaN:  TrackProducer:hltFullIter8CtfWithMaterialTracks  14-Jun-2021 15:51:31 CEST Run: 1 Event: 481
+Track has NaN or the cov is not pos-definite
+%MSG
+Begin processing the 34th record. Run 1, Event 484, LumiSection 10 at 14-Jun-2021 15:51:32.961 CEST
+Begin processing the 35th record. Run 1, Event 485, LumiSection 10 at 14-Jun-2021 15:51:40.268 CEST
+Begin processing the 36th record. Run 1, Event 486, LumiSection 10 at 14-Jun-2021 15:51:42.615 CEST
+Begin processing the 37th record. Run 1, Event 487, LumiSection 10 at 14-Jun-2021 15:51:43.316 CEST
+Begin processing the 38th record. Run 1, Event 489, LumiSection 10 at 14-Jun-2021 15:51:43.973 CEST
+Begin processing the 39th record. Run 1, Event 492, LumiSection 10 at 14-Jun-2021 15:51:46.790 CEST
+Begin processing the 40th record. Run 1, Event 491, LumiSection 10 at 14-Jun-2021 15:51:47.349 CEST
+Begin processing the 41st record. Run 1, Event 488, LumiSection 10 at 14-Jun-2021 15:51:52.069 CEST
+Begin processing the 42nd record. Run 1, Event 493, LumiSection 10 at 14-Jun-2021 15:51:58.994 CEST
+Begin processing the 43rd record. Run 1, Event 490, LumiSection 10 at 14-Jun-2021 15:52:00.999 CEST
+Begin processing the 44th record. Run 1, Event 496, LumiSection 10 at 14-Jun-2021 15:52:09.257 CEST
+Begin processing the 45th record. Run 1, Event 494, LumiSection 10 at 14-Jun-2021 15:52:15.735 CEST
+Begin processing the 46th record. Run 1, Event 497, LumiSection 10 at 14-Jun-2021 15:52:21.114 CEST
+Begin processing the 47th record. Run 1, Event 495, LumiSection 10 at 14-Jun-2021 15:52:24.723 CEST
+Begin processing the 48th record. Run 1, Event 500, LumiSection 10 at 14-Jun-2021 15:52:31.503 CEST
+Begin processing the 49th record. Run 1, Event 498, LumiSection 10 at 14-Jun-2021 15:52:35.606 CEST
+Begin processing the 50th record. Run 1, Event 499, LumiSection 10 at 14-Jun-2021 15:52:41.497 CEST
+14-Jun-2021 15:52:50 CEST  Closed file file:/eos/cms/store/user/tsarkar/DIGIPremix_Condor_output_Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_ctau1p0/step_DIGIPremix_2017UL_2.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 BasicTrajectoryState -w TrackProducer:hl                       6        6
+    2 BasicTrajectoryState -w TrackProducer:hl                       2        2
+    3 InvalidHelix         -w SeedCreatorFromR                       1        1
+    4 InvalidInputTag      -w CSCHaloDataProdu                       1        1
+    5 TrackNaN             -w TrackProducer:hl                       1        1
+    6 TrajectoryNotPosDef  -e TrackProducer:hl                       1        1
+    7 TrajectoryNotPosDef  -e TrackProducer:hl                       1        1
+    8 fileAction           -s file_close                             1        1
+    9 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 BasicTrajectoryState 1/481            1/481            1/481
+    2 BasicTrajectoryState 1/472            1/472            
+    3 InvalidHelix         1/474                             
+    4 InvalidInputTag      1/454                             
+    5 TrackNaN             1/481                             
+    6 TrajectoryNotPosDef  1/475                             
+    7 TrajectoryNotPosDef  1/472                             
+    8 fileAction           PostGlobalEndRun                  
+    9 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                11                  11
+Error                   2                   2
+System                  3                   3
+
+dropped waiting message count 0
