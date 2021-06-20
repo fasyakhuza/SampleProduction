@@ -1,33 +1,27 @@
 #!/usr/bin/env python
 import os
+import sys
+import random
+import argparse
+import json
+import shutil
+import subprocess
 
-
-dirs = ['DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0','DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-1_gSM-0p25_gDM-1p0'] #organizing directories.
-
-Tarballs = ['/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc481/13TeV/madgraph/V5_2.4.3/DMVector_ZLL_NLO/v1/Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_13TeV-madgraph_tarball.tar.xz','/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc481/13TeV/madgraph/V5_2.4.3/DMVector_ZLL_NLO/v1/Vector_MonoZLL_NLO_Mphi-500_Mchi-1_gSM-0p25_gDM-1p0_13TeV-madgraph_tarball.tar.xz']
-
-gDM_1p0=True
-if(gDM_1p0):
-	m5000522 = ['1','1','1','1','1','1'] #Mass of stable dark matter==1
-else:
-	m5000522 = ['0.1','0.1','0.1','0.1','0.1'] #Mass of stable dark matter==0.1
-
-pre_ext=['Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25','Mphi-500_Mchi2-1_Mchi1-1_gSM-0p25']
-ctau = ['0.1', '1', '10', '100', '1000'] #decay lengths (cm)
-
-
-filename1 = ['_gDM-1p0_ctau-0p1.py','_gDM-1p0_ctau-1p0.py','_gDM-1p0_ctau-10p0.py','_gDM-1p0_ctau-100p0.py','_gDM-1p0_ctau-1000p0.py']
-
-filename2 = ['_gDM-0p1_ctau-0p1.py','_gDM-0p1_ctau-1p0.py','_gDM-0p1_ctau-10p0.py','_gDM-0p1_ctau-100p0.py', '_gDM-1p0_ctau-1000p0.py']
-
-count1=0
-
-for directory in dirs:
-	print "creating directory:", directory
-	os.makedirs(directory)
-	count2=0
-        for ctaus in ctau:
-		FilePrep="""
+def create_config(input_jsonfile):
+	with open(input_jsonfile) as data_file:
+		data = json.load(data_file)
+		for sample, sample_cfg in data.items():
+			directory = sample_cfg["dir"]
+			print "creating directory:", directory
+			os.makedirs(directory)
+			count2=0
+			tarball = sample_cfg["tarball"]
+			m5000522 = sample_cfg["m5000522"]
+			pre_ext = sample_cfg["pre_ext"]
+			filename = sample_cfg["filename"]
+			ctau = sample_cfg["ctau"]
+			for i in range(len(ctau)):
+				FilePrep="""
 import FWCore.ParameterSet.Config as cms
 
 externalLHEProducer = cms.EDProducer("ExternalLHEProducer",
@@ -80,15 +74,32 @@ generator = cms.EDFilter("Pythia8HadronizerFilter",
         )
     )
 
-"""%(Tarballs[count1],m5000522[count1],ctaus)
-		print "creating Fragments for this directory"
-                if(gDM_1p0):
-			f=open(directory + '/' + pre_ext[count1] + filename1[count2],"w+")
-                else:
-			f=open(directory + '/' + pre_ext[count1] + filename2[count2],"w+")
-
-		f.write(FilePrep)
-		f.close()
-		count2=count2+1
-	count1=count1+1
+"""%(tarball,m5000522,ctau[i])
+				print "creating Fragments for this directory"
+				#f=open(directory + '/' + pre_ext[i] + filename[i],"w+")
+				f=open(os.path.join(directory, pre_ext + filename[i]), 'w+')
+				f.write(FilePrep)
+				f.close()
 	
+
+
+def main():
+        from argparse import ArgumentParser
+        import argparse
+        parser = ArgumentParser(description="Do -h to see usage")
+
+        #parser.add_argument('-i', '--txt', action='store_true', help='input txt file name')
+        #parser.add_argument('-f', '--txt',help='txt file input',type=argparse.FileType('r'),)
+        #parser.add_argument('--f', type=open)
+
+        parser.add_argument('-i', '--json', type=str)
+
+        args = parser.parse_args()
+
+        print(args)
+
+        create_config(args.json)
+
+
+if __name__ == "__main__":
+        main()

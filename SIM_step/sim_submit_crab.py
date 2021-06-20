@@ -7,27 +7,23 @@ import shutil
 import subprocess
 
 def create_jobs(input_jsonfile):
-	cmsdriver_sh = open("create_confg_run_crab.sh","w")
+	cmsdriver_sh = open("submit_crab_job.sh","w")
 	cmsdriver_sh.write("#!/bin/bash\n")
 	crab_file_list=[]
 	with open(input_jsonfile) as data_file:    
 		data = json.load(data_file)
 		for sample, sample_cfg in data.items():		
-			print "fname = ", sample_cfg["fragmentname"], ' ',sample_cfg["Nevents"]
-			cfg_file="run_"+sample_cfg["RequestName"]+".py"
-			cmsdriver_p = "cmsDriver.py "+sample_cfg["fragmentname"]+".py --no_exec --mc --python_filename "+cfg_file+" --fileout step_wgen.root --eventcontent RAWSIM --datatier GEN --step LHE,GEN --geometry DB:Extended -n 6284 --customise_commands process.RandomNumberGeneratorService.externalLHEProducer.initialSeed="+str(random.randint(1, 100000))+" --conditions 106X_mc2017_realistic_v6 --beamspot Realistic25ns13TeVEarly2017Collision --era Run2_2017"
+			cfg_file="run_sim.py"
+			shutil.copyfile("../skeleton/sim_basefile_crab_run.py",cfg_file)
 		
-			cmsdriver_sh.write(cmsdriver_p+"\n\n")
 			crab_file="submit_crab_"+sample_cfg["RequestName"]+".py"
 			print(crab_file)
 			#os.system('cp skeleton/crab_basefile.py '+crab_file)
-			shutil.copyfile("../skeleton/wgen_crab_basefile.py",crab_file)
+			shutil.copyfile("../skeleton/sim_crab_templete.py",crab_file)
 			subprocess.call(["sed -i 's|###REQUESTNAME###|" + sample_cfg["RequestName"] + "|g' " + crab_file], shell=True)
 			subprocess.call(["sed -i 's|###RUNCFGFILE###|" + cfg_file + "|g' " + crab_file], shell=True)
-			subprocess.call(["sed -i 's|###OUTPUTPRIMARYDATASET###|" + sample_cfg["OutputPrimaryDataset"] + "|g' " + crab_file], shell=True)
-			subprocess.call(["sed -i 's|###INPUTDATASETTAG###|" + sample_cfg["OutputDatasetTag"] + "|g' " + crab_file], shell=True)
-			subprocess.call(["sed -i 's|###UNITSPERJOB###|" + str(int(sample_cfg["Nevents"])) + "|g' " + crab_file], shell=True)
-			subprocess.call(["sed -i 's|###NJOBS###|" + sample_cfg["Njobs"] + "|g' " + crab_file], shell=True)
+			subprocess.call(["sed -i 's|###INPUTDATASETTAG###|" + sample_cfg["InputDatasetTag"] + "|g' " + crab_file], shell=True)
+			subprocess.call(["sed -i 's|###OUTPUTPRIMARYDATASET###|" + sample_cfg["OutputDatasetTag"] + "|g' " + crab_file], shell=True)
 			crab_file_list.append(crab_file)
 	  	
 

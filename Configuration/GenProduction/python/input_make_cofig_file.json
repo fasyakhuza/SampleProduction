@@ -1,0 +1,22 @@
+{
+	"DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0": {
+		"dir":"DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0",
+		"tarball":"/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc481/13TeV/madgraph/V5_2.4.3/DMVector_ZLL_NLO/v1/Vector_MonoZLL_NLO_Mphi-500_Mchi-150_gSM-0p25_gDM-1p0_13TeV-madgraph_tarball.tar.xz",
+		"m5000522":1,
+		"pre_ext":"Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25",
+		"ctau":[0.1, 1, 10, 100, 1000],
+		"filename":["_gDM-1p0_ctau-0p1.py","_gDM-1p0_ctau-1p0.py","_gDM-1p0_ctau-10p0.py","_gDM-1p0_ctau-100p0.py","_gDM-1p0_ctau-1000p0.py"]
+},
+"DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0": {
+    "dir":"DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0",
+    "tarball":"/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc481/13TeV/madgraph/V5_2.4.3/DMVector_ZLL_NLO/v1/Vector_MonoZLL_NLO_Mphi-500_Mchi-1_gSM-0p25_gDM-1p0_13TeV-madgraph_tarball.tar.xz",
+    "m5000522":0.1,
+    "pre_ext":"Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25",
+    "ctau":[0.1, 1, 10, 100, 1000],
+    "filename":["_gDM-1p0_ctau-0p1.py","_gDM-1p0_ctau-1p0.py","_gDM-1p0_ctau-10p0.py","_gDM-1p0_ctau-100p0.py","_gDM-1p0_ctau-1000p0.py"]
+}
+
+
+}
+
+

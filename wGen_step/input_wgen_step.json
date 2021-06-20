@@ -1,0 +1,102 @@
+{
+    "mphi-500-mchi2-150-mchi1-1_wgenCtau0p1":{
+	"fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau-0p1",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau0p1",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau0p1",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau0p1",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    },
+    "mphi-500-mchi2-150-mchi1-1_wgenCtau1p0":{
+	"fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau-1p0",
+    	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1p0",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1p0",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1p0",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    },
+    "mphi-500-mchi2-150-mchi1-1_wgenCtau10p0":{
+	"fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau-10p0",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau10p0",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau10p0",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau10p0",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    },
+    "mphi-500-mchi2-150-mchi1-1_wgenCtau100p0":{
+	"fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau-100p0",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau100p0",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau100p0",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau100p0",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    },
+    "mphi-500-mchi2-150-mchi1-1_wgenCtau1000p0":{
+	"fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau-1000p0",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_wgenCtau0p1":{
+	"fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau-0p1",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau0p1",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau0p1",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau0p1",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+        "Nevents": "1000",
+        "Njobs": "20"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_wgenCtau1p0":{
+        "fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau-1p0",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1p0",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1p0",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1p0",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_wgenCtau10p0":{
+        "fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau-10p0",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau10p0",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau10p0",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau10p0",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_wgenCtau100p0":{
+        "fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau-100p0",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau100p0",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau100p0",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau100p0",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_wgenCtau1000p0":{
+        "fragmentname": "Configuration/GenProduction/python/DMSimp_DM_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0/Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau-1000p0",
+	"RequestName": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"WorkArea": "xx",
+	"CfgFile": "wgen_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"OutputPrimaryDataset": "wgen_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"OutputDatasetTag": "RunIISummer20UL17_wmLHEGEN",
+	"Nevents": "1000",
+	"Njobs": "20"
+    }
+}
