@@ -169,6 +169,6 @@ To submit condor jobs for MiniAOD step just run: ```sh create_submit_condor_Mini
 
 Make a json file like ```input_MiniAOD_crab_submit.json``` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(RECO) step.
 
-Then run: ```python reco_submit_crab.py -i input_MiniAOD_crab_submit.json``` . It will create a **submit_crab_job_step_MiniAOD.sh** file.
+Then run: ```python MiniAOD_submit_crab.py -i input_MiniAOD_crab_submit.json``` . It will create a **submit_crab_job_step_MiniAOD.sh** file.
 
 To submit crab jobs: ```sh submit_crab_job_step_MiniAOD.sh```
