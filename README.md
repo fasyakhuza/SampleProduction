@@ -75,7 +75,7 @@ The to submit condor jobs for SIM step just run: ```sh create_submit_condor_sim_
 
 ### Crab step:
 
-Make a json file like ```input_sim_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from 
+Make a json file like ```input_sim_crab_submit.json``` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from 
 previous(wGen) step. 
 
 Then run: ```python sim_submit_crab.py -i input_sim_crab_submit.json``` . It will create a **submit_crab_job_step_sim.sh** file.
@@ -98,7 +98,7 @@ The to submit condor jobs for DIGIPremix step just run: ```sh create_submit_cond
 
 ### Crab step:
 
-Make a json file like ```input_digiPremix_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(SIM) step.
+Make a json file like ```input_digiPremix_crab_submit.json``` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(SIM) step.
 
 Then run: ```python digiPremix_submit_crab.py -i input_digiPremix_crab_submit.json``` . It will create a **submit_crab_job_step_digiPrimix.sh** file.
 
@@ -122,7 +122,7 @@ To submit condor jobs for HLT step just run: ```sh create_submit_condor_hlt_Mphi
 
 ### Crab step:
 
-Make a json file like ```input_hlt_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(DIGIPremix) step.
+Make a json file like ```input_hlt_crab_submit.json``` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(DIGIPremix) step.
 
 Then run: ```python hlt_submit_crab.py -i input_hlt_crab_submit.json``` . It will create a **submit_crab_job_step_hlt.sh** file.
 
@@ -145,7 +145,7 @@ To submit condor jobs for RECO step just do run: ```sh create_submit_condor_reco
 
 ### Crab step:
 
-Make a json file like ```input_reco_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(HLT) step.
+Make a json file like ```input_reco_crab_submit.json``` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(HLT) step.
 
 Then run: ```python reco_submit_crab.py -i input_reco_crab_submit.json``` . It will create a **submit_crab_job_step_reco.sh** file.
 
@@ -167,7 +167,7 @@ To submit condor jobs for MiniAOD step just run: ```sh create_submit_condor_Mini
 
 ### Crab step:
 
-Make a json file like ```input_MiniAOD_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(RECO) step.
+Make a json file like ```input_MiniAOD_crab_submit.json``` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(RECO) step.
 
 Then run: ```python reco_submit_crab.py -i input_MiniAOD_crab_submit.json``` . It will create a **submit_crab_job_step_MiniAOD.sh** file.
 
