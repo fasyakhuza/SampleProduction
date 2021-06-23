@@ -12,8 +12,10 @@ cmsRun -p CFGFILE
 '''
 
 condor_template = """universe              = vanilla
+#Proxy_filename = x509up
+#Proxy_path = /proxypath/$(Proxy_filename)
 executable            = EXEC
-arguments             = $(ClusterID) $(ProcId)
+arguments             = $(ClusterID) $(ProcId) 
 output                = OUTPUT/job_JOB_NUMBER.out
 error                 = OUTPUT/job_JOB_NUMBER.err
 log                   = OUTPUT/job_JOB_NUMBER.log

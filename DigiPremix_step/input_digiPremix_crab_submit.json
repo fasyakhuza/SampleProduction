@@ -1,0 +1,52 @@
+{
+    "mphi-500-mchi2-150-mchi1-1_digiPremixCtau0p1":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau0p1",
+	"InputDatasetTag": "From crab",
+	"OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-150-mchi1-1_digiPremixCtau1p0":{
+    	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-150-mchi1-1_digiPremixCtau10p0":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau10p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-150-mchi1-1_digiPremixCtau100p0":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau100p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-150-mchi1-1_digiPremixCtau1000p0":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_digiPremixCtau0p1":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau0p1",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_digiPremixCtau1p0":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_digiPremixCtau10p0":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau10p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_digiPremixCtau100p0":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau100p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_digiPremixCtau1000p0":{
+	"RequestName": "digiPremix_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_DIGIPREMIX"
+    }
+}

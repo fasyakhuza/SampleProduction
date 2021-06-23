@@ -1,0 +1,52 @@
+{
+    "mphi-500-mchi2-150-mchi1-1_MiniAODCtau0p1":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau0p1",
+	"InputDatasetTag": "From crab",
+	"OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-150-mchi1-1_MiniAODCtau1p0":{
+    	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-150-mchi1-1_MiniAODCtau10p0":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau10p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-150-mchi1-1_MiniAODCtau100p0":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau100p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-150-mchi1-1_MiniAODCtau1000p0":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-150_Mchi1-1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_MiniAODCtau0p1":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau0p1",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_MiniAODCtau1p0":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_MiniAODCtau10p0":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau10p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_MiniAODCtau100p0":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau100p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    },
+    "mphi-500-mchi2-1-mchi1-0p1_MiniAODCtau1000p0":{
+	"RequestName": "MiniAOD_Vector_MonoZLL_NLO_Mphi-500_Mchi2-1_Mchi1-0p1_gSM-0p25_gDM-1p0_ctau1000p0",
+	"InputDatasetTag": "From crab",
+        "OutputDatasetTag": "RunIISummer20UL17_MINIAOD"
+    }
+}

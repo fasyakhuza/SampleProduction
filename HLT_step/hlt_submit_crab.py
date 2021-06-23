@@ -7,19 +7,19 @@ import shutil
 import subprocess
 
 def create_jobs(input_jsonfile):
-	cmsdriver_sh = open("submit_crab_job_step_sim.sh","w")
+	cmsdriver_sh = open("submit_crab_job_step_hlt.sh","w")
 	cmsdriver_sh.write("#!/bin/bash\n")
 	crab_file_list=[]
 	with open(input_jsonfile) as data_file:    
 		data = json.load(data_file)
 		for sample, sample_cfg in data.items():		
-			cfg_file="run_sim.py"
-			shutil.copyfile("../skeleton/sim_basefile_crab_run.py",cfg_file)
+			cfg_file="run_hlt.py"
+			shutil.copyfile("../skeleton_hlt/hlt_basefile_crab_run.py",cfg_file)
 		
 			crab_file="submit_crab_"+sample_cfg["RequestName"]+".py"
 			print(crab_file)
 			#os.system('cp skeleton/crab_basefile.py '+crab_file)
-			shutil.copyfile("../skeleton/sim_crab_templete.py",crab_file)
+			shutil.copyfile("../skeleton_hlt/sim_crab_templete.py",crab_file)
 			subprocess.call(["sed -i 's|###REQUESTNAME###|" + sample_cfg["RequestName"] + "|g' " + crab_file], shell=True)
 			subprocess.call(["sed -i 's|###RUNCFGFILE###|" + cfg_file + "|g' " + crab_file], shell=True)
 			subprocess.call(["sed -i 's|###INPUTDATASETTAG###|" + sample_cfg["InputDatasetTag"] + "|g' " + crab_file], shell=True)

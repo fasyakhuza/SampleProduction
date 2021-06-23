@@ -7,14 +7,14 @@ import shutil
 import subprocess
 
 def create_jobs(input_jsonfile):
-	cmsdriver_sh = open("submit_crab_job_step_sim.sh","w")
+	cmsdriver_sh = open("submit_crab_job_step_digiPrimix.sh","w")
 	cmsdriver_sh.write("#!/bin/bash\n")
 	crab_file_list=[]
 	with open(input_jsonfile) as data_file:    
 		data = json.load(data_file)
 		for sample, sample_cfg in data.items():		
-			cfg_file="run_sim.py"
-			shutil.copyfile("../skeleton/sim_basefile_crab_run.py",cfg_file)
+			cfg_file="run_digiPrimix.py"
+			shutil.copyfile("../skeleton/digiPrimix_basefile_crab_run.py",cfg_file)
 		
 			crab_file="submit_crab_"+sample_cfg["RequestName"]+".py"
 			print(crab_file)

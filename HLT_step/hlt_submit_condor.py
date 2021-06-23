@@ -7,7 +7,7 @@ sys.path.append("../skeleton_hlt/")
 from sim_condor_templete import *
 
 
-def create_jobs(input_rootfiles):
+def create_jobs(input_rootfiles,proxyfile):
 	step ="HLT"
 	tt_str=   str(input_rootfiles).replace('.txt','').replace('infile_','_')
 	run_dir = os.path.join(os.getcwd(), step+'_Condor_input'+tt_str)
@@ -41,6 +41,9 @@ def create_jobs(input_rootfiles):
           	condor_script = re.sub('JOB_NUMBER', str(i), condor_script)
           	condor_script = re.sub('OUTPUT', os.path.join(output_dir), condor_script)
 
+		condor_script = re.sub('x509up', proxyfile, condor_script)
+                condor_script = re.sub('proxypath', os.path.join(os.getcwd()), condor_script)
+
           	open(os.path.join(run_dir, 'condor_{}.condor.jdl'.format(i)), 'w').write(condor_script)
 		subprocess.call(["condor_submit",  "{0}".format(os.path.join(run_dir, 'condor_{}.condor.jdl'.format(i)))])
 		#out_txtfile.write(dir_name+"/"+outfile+'\n')
@@ -55,12 +58,13 @@ def main():
 	#parser.add_argument('--f', type=open)
 	
 	parser.add_argument('-f', '--txt', type=str)
+	parser.add_argument('-p', '--proxy', type=str)
 
   	args = parser.parse_args()
 
   	print(args)
 	
-	create_jobs(args.txt)
+	create_jobs(args.txt,args.proxy)
 
 
 if __name__ == "__main__":
