@@ -75,6 +75,8 @@ The to submit condor jobs for SIM step just run: ```sh create_submit_condor_sim_
 
 ### Crab step:
 
+**change storage path in ../skeleton/sim_crab_templete.py for all the following steps**
+
 Make a json file like ```input_sim_crab_submit.json``` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from 
 previous(wGen) step. 
 
