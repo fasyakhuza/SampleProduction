@@ -29,7 +29,8 @@ cd ../Configuration/GenProduction/python
 ```
  Run: 
 ```
-python createFragments_2017.py  
+python createFragments_2017.py -i input_make_cofig_file.json
+  
 ```  
 #### Change this file, name of gridpack, ctau values in mm, dark matter mass. It will create cfg file from different gridpack and for different ctau values.
 
@@ -62,6 +63,8 @@ To run and submit crab job: ```sh create_confg_run_crab.sh```
 ```
 cd ../SIM_step
 ```
+### Condor Step:
+
 Prepare file like ```create_infile.sh``` which contain output path and directory name of previous wGen step output.
 
 run: ```sh create_infile.sh``` It will create some **.txt file, contains each root file path of wGen step.
@@ -70,11 +73,21 @@ run: ```sh create_infile.sh``` It will create some **.txt file, contains each ro
 
 The to submit condor jobs for SIM step just run: ```sh create_submit_condor_sim_Mphi-500_Mchi-150_jobs.sh```
 
+### Crab step:
+
+Make a json file like ```input_sim_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from 
+previous(wGen) step. 
+
+Then run: ```python sim_submit_crab.py -i input_sim_crab_submit.json``` . It will create a **submit_crab_job_step_sim.sh** file.
+
+To submit crab jobs: ```sh submit_crab_job_step_sim.sh```
 
 ## STEP4: DIGIPremix
 ```
 cd ../DigiPremix_step
 ```
+### Condor Step:
+
 Prepare file like ```create_infile.sh``` which contain output path and directory name of previous SIM step output.
 
 run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of SIM step.
@@ -83,11 +96,21 @@ run: ```sh create_infile.sh``` It will create some **.txt** file, contains each 
 
 The to submit condor jobs for DIGIPremix step just run: ```sh create_submit_condor_digiPremix_Mphi-500_Mchi-150_jobs.sh```
 
+### Crab step:
+
+Make a json file like ```input_digiPremix_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(SIM) step.
+
+Then run: ```python digiPremix_submit_crab.py -i input_digiPremix_crab_submit.json``` . It will create a **submit_crab_job_step_digiPrimix.sh** file.
+
+To submit crab jobs: ```sh submit_crab_job_step_digiPrimix.sh```
+
 ## STEP5: HLT
 ```
 cd ../../../../CMSSW_9_4_14_UL_patch1/src/HLT_step
 ```
 ```cmsenv``` **This is different CMSSW version specially for HLT step**.
+
+### Condor Step:
 
 Prepare file like ```create_infile.sh``` which contain output path and directory name of previous DIGIPremix step output.
 
@@ -97,11 +120,21 @@ run: ```sh create_infile.sh``` It will create some **.txt** file, contains each 
 
 To submit condor jobs for HLT step just run: ```sh create_submit_condor_hlt_Mphi-500_Mchi-150_jobs.sh```
 
+### Crab step:
+
+Make a json file like ```input_hlt_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(DIGIPremix) step.
+
+Then run: ```python hlt_submit_crab.py -i input_hlt_crab_submit.json``` . It will create a **submit_crab_job_step_hlt.sh** file.
+
+To submit crab jobs: ```sh submit_crab_job_step_hlt.sh```
+
 ## STEP6: RECO
 ```
 cd ../../../CMSSW_10_6_18/src/SampleProduction/RECO_step/
 cmsenv
 ```
+### Condor Step:
+
 Prepare file like ```create_infile.sh``` which contain output path and directory name of previous HLT step output.
 
 run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of HLT step.
@@ -110,10 +143,20 @@ run: ```sh create_infile.sh``` It will create some **.txt** file, contains each 
 
 To submit condor jobs for RECO step just do run: ```sh create_submit_condor_reco_Mphi-500_Mchi-150_jobs.sh```
 
+### Crab step:
+
+Make a json file like ```input_reco_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(HLT) step.
+
+Then run: ```python reco_submit_crab.py -i input_reco_crab_submit.json``` . It will create a **submit_crab_job_step_reco.sh** file.
+
+To submit crab jobs: ```sh submit_crab_job_step_reco.sh```
+
 ## STEP7: MiniAOD
 ```
 cd ../MiniAOD_step
 ```
+### Condor Step:
+
 Prepare ```file like create_infile.sh``` which contain output path and directory name of previous RECO step output.
 
 run: ```sh create_infile.sh``` It will create some **.txt** file, contains each root file path of RECO step.
@@ -121,3 +164,11 @@ run: ```sh create_infile.sh``` It will create some **.txt** file, contains each 
 ###### Remember to change output path and directory name of RECO step or create new file like this.
 
 To submit condor jobs for MiniAOD step just run: ```sh create_submit_condor_MiniAOD_Mphi-500_Mchi-150_jobs.sh```
+
+### Crab step:
+
+Make a json file like ```input_MiniAOD_crab_submit.json```` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(RECO) step.
+
+Then run: ```python reco_submit_crab.py -i input_MiniAOD_crab_submit.json``` . It will create a **submit_crab_job_step_MiniAOD.sh** file.
+
+To submit crab jobs: ```sh submit_crab_job_step_MiniAOD.sh```
