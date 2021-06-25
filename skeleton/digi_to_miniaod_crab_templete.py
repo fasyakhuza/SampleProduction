@@ -10,7 +10,7 @@ config.General.transferOutputs = True
 config.JobType.pluginName = "Analysis"
 config.JobType.psetName = "###RUNCFGFILE###"
 config.JobType.maxMemoryMB = 4000
-config.JobType.numCores = 4
+#config.JobType.numCores = 4
 
 config.Data.inputDataset = "###INPUTDATASETTAG###" 
 config.Data.outLFNDirBase = "/store/user/%s/" % (getUsernameFromCRIC())

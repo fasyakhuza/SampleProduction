@@ -19,7 +19,7 @@ def create_jobs(input_jsonfile):
 			crab_file="submit_crab_"+sample_cfg["RequestName"]+".py"
 			print(crab_file)
 			#os.system('cp skeleton/crab_basefile.py '+crab_file)
-			shutil.copyfile("../skeleton_hlt/sim_crab_templete.py",crab_file)
+			shutil.copyfile("../skeleton_hlt/digi_to_miniaod_crab_templete.py",crab_file)
 			subprocess.call(["sed -i 's|###REQUESTNAME###|" + sample_cfg["RequestName"] + "|g' " + crab_file], shell=True)
 			subprocess.call(["sed -i 's|###RUNCFGFILE###|" + cfg_file + "|g' " + crab_file], shell=True)
 			subprocess.call(["sed -i 's|###INPUTDATASETTAG###|" + sample_cfg["InputDatasetTag"] + "|g' " + crab_file], shell=True)
