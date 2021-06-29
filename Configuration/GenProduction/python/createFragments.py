@@ -63,12 +63,12 @@ generator = cms.EDFilter("Pythia8HadronizerFilter",
             '5000522:isResonance = false',
             '5000522:onMode = off',
             '5000522:mayDecay = off',
-            '52:mayDecay = on',
-            '52:mWidth = 0.01',  # needs to be non-zero for Pythia to decay it
-            '52:onMode = off',
-            '52:addChannel = 1 1 100 5000522 1 -1',
-            '52:onIfAny = 5000522 1 -1',
-            '52:tau0 = %s'
+            '18:mayDecay = on',
+            '18:mWidth = 0.01',  # needs to be non-zero for Pythia to decay it
+            '18:onMode = off',
+            '18:addChannel = 1 1 100 5000522 1 -1',
+            '18:onIfAny = 5000522 1 -1',
+            '18:tau0 = %s'
             ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
