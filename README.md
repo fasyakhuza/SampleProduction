@@ -100,6 +100,8 @@ The to submit condor jobs for DIGIPremix step just run: ```sh create_submit_cond
 
 ### Crab step:
 
+**change storage path in ../skeleton/digi_to_miniaod_crab_templete.py for all the following steps**
+
 Make a json file like ```input_digiPremix_crab_submit.json``` modify **RequestName** and **InputDatasetTag**, which is the crab publish data set name from previous(SIM) step.
 
 Then run: ```python digiPremix_submit_crab.py -i input_digiPremix_crab_submit.json``` . It will create a **submit_crab_job_step_digiPrimix.sh** file.
